@@ -1,0 +1,12 @@
+{
+  "name": "vegetam_assets",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "~3.9.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
