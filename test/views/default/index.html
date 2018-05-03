@@ -1,0 +1,913 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <base href="." />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta property="qc:admins" content="1540270707607636" />
+  <link href="./css/common.css" type="text/css" rel="stylesheet" />
+  <link href="./css/lottery.css" type="text/css" rel="stylesheet" />
+  <link href="./css/caizhan.css" type="text/css" rel="stylesheet" />
+  <link href="http://www.stcpd.com/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="./css/lb.css" type="text/css" />
+  <title>首页 | 实体游戏店 | stcpd.com彩店 | 福彩店</title>
+</head>
+
+<body class="sports">
+  <!-- header start -->
+  <input type="hidden" id="flag" name="flag" value="0" />
+  <input type="hidden" id="isLogin" name="isLogin" value="0" />
+  <div class="header cf" style="background: url(img/headBg.jpg) center center no-repeat;">
+    <div class="welBg">
+      <p class="wel bg-w">
+        <span class="help f-r">
+          <a class="aBg" href="#" target="_blank"> 手机客户端 </a>
+          <span class="p-r_5"> | </span>
+          <a class="aBg" href="#"> 帮助中心 </a>
+          <span class="p-r_5"> | </span>
+          <!-- <a onclick="addPanel();">收藏本站</a> -->
+          <a href="#"> 收藏本站 </a>
+        </span>
+        <label id="header">
+          <span> 您好，
+            <span> 实体游戏店 </span> 欢迎您！ </span>
+          <a class="aBg blue" href="#"> 请登录 </a>
+          <span class="p-r_5"> | </span>
+          <a href="#" class="blue"> 免费注册 </a>
+        </label>
+      </p>
+    </div>
+    <div class="EmInfo" style="display:none" id="urgentnotic">
+      <div class="EmInfoMain">
+        <input type="hidden" id="urgentid" value="0" />
+        <img src="./img/EmInfoImg.png" alt="" />
+        <span class="f-l fb"> 店主公告： </span>
+        <span class="f-l" id="scrollNews"> 店主公告： </span>
+        <a href="#" class="jjggClose"> 关闭 </a>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div class="logoCont">
+      <div class="logo cf">
+        <h1>
+          <a name="toSports" class="logoBox" style="font-weight:bold;font-family:'微软雅黑';font-size:32px;" href="#" target="_self">
+            实体游戏店
+            <cite> www.stcpd.com </cite>
+          </a>
+          <span class="shopLink"> </span>
+        </h1>
+        <div class="logo_r">
+          <!--<img src="../../images/common/pic.png" alt="" style="float:left;"
+                        />
+                        -->
+          <div class="qqlink" style="float:right;">
+            <a id="qqlink" target="_blank" href="#">
+              <img src="./img/qq.jpg" title="85250396" /> </a>
+          </div>
+          <div class="clear"> </div>
+        </div>
+        <!-- <img src="../../images/common/rmb.png" alt="" class="rmb" />
+                    -->
+      </div>
+    </div>
+    <div class="navBg cf">
+      <div class="bg-w cf">
+        <h2 class="" id="typeBtn"> 选择彩种 </h2>
+        <ul class="nav">
+          <li>
+            <a class="on" name="toSports" href="index.html"> 首页 </a>
+          </li>
+          <li style="position: relative;">
+            <a href="02.html"> 跟单大厅 </a>
+            <span id="hotGif"> </span>
+          </li>
+          <!--<li><a  href="/lottery/index.jhtml">购彩大厅</a></li>-->
+          <li id="hmdtIndexId">
+            <a href="03.html"> 合买大厅 </a>
+          </li>
+          <li>
+            <a href="04.html"> 游戏开奖 </a>
+          </li>
+          <li>
+            <a href="05.html" name="thirdparty"> 走势图 </a>
+          </li>
+          <li>
+            <a href="06.html"> 即时比分 </a>
+          </li>
+          <li style="display: none;">
+            <a href="#" target="_blank" " name="thirdparty "> 网站推荐 </a> </li>
+        <li> <a href="07.html "> 本店推荐 </a> </li>
+        <li> <a href="01.html"> 彩站介绍 </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- header end --> 
+<!--main start-->
+<div class="mainCont " style="margin-top: -10px; padding-top: 10px; ">
+  <div class="main bg-w "> 
+    <!--mainL-->
+    <div class="mainL ">
+      <ul class="typeBox ">
+        <li>
+          <div class="navImgCont "> <img src="./img/ico_jc.png " alt=" " /> 竞足 </div>
+          <p> <a href="/"> <strong> 单关投注 </strong> </a> <a href="/"> 胜平负 </a> <a href="/"> 比分 </a> <a href="#
+              "> 让球胜平负 </a> <a href="/"> 总进球 </a> <a href="/"> 半全场 </a> <a href="/"> 混合过关 </a> <a href="/"> 2选1 </a> 
+            <!-- <a href="lottery/jczq/EuropeanCup.jhtml "><strong>冠亚军</strong></a> --> 
+            <!--<a href="lottery/jczq/WorldCup.jhtml ">冠亚军</a><img src="../../images/common/new.png " alt=" " />--> 
+          </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="./img/ico_jl.png " alt=" " /> 竞篮 </div>
+          <p> <a href="/"> 单关投注 </a> <a href="/"> 让分胜负 </a> <a href="/"> 胜负 </a> <a href="/"> 胜分差 </a> <a href="#
+              "> 大小分 </a> <a href="/"> 混合过关 </a> </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="./img/ico_sfc.png " alt=" " /> 足彩 </div>
+          <p> <a href="/"> 胜负彩 </a> <a href="/"> 任选九 </a> <a href="/"> 进球彩 </a> <a href="/"> 半全场 </a> </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="./img/ico_dlt.png " alt=" " /> 体彩 </div>
+          <p> <a href="/"> 大乐透 </a> <a href="/"> 排列三 </a> <a href="/"> 排列五 </a> <a href="/"> 七星彩 </a> </p>
+        </li>
+        <li class="last ">
+          <div class="navImgCont "> <img src="./img/218_11x5.png " alt=" " /> 高频 </div>
+          <p> <a href="/"> 新疆11选5 </a> </p>
+        </li>
+      </ul>
+      <div class="app87 ">
+        <h2> 手机客户端下载 </h2>
+        <div class="appinfo87 ">
+          <div class="app_ewm_87 "> <img alt="手机二维码 " src="./img/app_ewm_v2.png " /> </div>
+          <div class="app_link_87 " style="position: relative; "> <img src="./img/app-sj.gif " />
+            <div class="down_fdm "> <a href="/" target="_blank "> 点击下载 </a> </div>
+          </div>
+          <div class="clear "> </div>
+          <div class="yqm ">
+            <p> 本店邀请码： <span style="color:red;font-size: 14px; "> 45442 </span> </p>
+          </div>
+        </div>
+      </div>
+      <script>
+        try {
+          var liList = $('.mainL').find("li "); //.eq($('.mainL').find("li ").length-1);
+          if (liList.length > 0) {
+            $(liList[liList.length - 1]).addClass('last');
+          }
+        } catch (se) { }
+      </script>
+      <div class="kjBox border m-b ">
+        <h5> <span> <b> 开奖公告 </b> <a href="/" name="uploadTab " class="on "> 体彩 </a> <a href="/" name="uploadTab
+              " class=" "> 足彩 </a> </span> </h5>
+        <dl name="uploadTabDiv " style="display: block; ">
+          <dd>
+            <h6> <cite> <b> 大乐透 </b> </cite> <span> <strong> 第2018028期 </strong> </span> 2018-03-12 </h6>
+            <em> 04 19 25 30 35 <font color="#2266BA "> 04 </font> <font color="#2266BA "> 07 </font> </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank " name="thirdparty " domain="http://charts.stcpd.com/cjwdlt/
+              "> 走势 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+          <dd>
+            <h6> <cite> <b> 排列三 </b> </cite> <span> <strong> 第2018064期 </strong> </span> 2018-03-12 </h6>
+            <em> 2 3 4 </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank " name="thirdparty " domain="http://charts.stcpd.com/cjwpl3/
+              "> 走势 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+          <dd>
+            <h6> <cite> <b> 排列五 </b> </cite> <span> <strong> 第2018064期 </strong> </span> 2018-03-12 </h6>
+            <em> 2 3 4 2 9 </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank " name="thirdparty " domain="http://charts.stcpd.com/cjwpl5/
+              "> 走势 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+          <dd class="last ">
+            <h6> <cite> <b> 七星彩 </b> </cite> <span> <strong> 第2018027期 </strong> </span> 2018-03-11 </h6>
+            <em> 9 6 9 7 6 5 1 </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank " name="thirdparty " domain="http://charts.stcpd.com/cjw7xc/
+              "> 走势 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+          <!--<dd>
+                            <h6><cite><b>22选5</b></cite><span>第期</span></h6>
+                            <em>
+                            </em>
+                            <p><a href="/award/details_m.jhtml?gameId=184 " target="_blank ">详情</a> | <a href="#
+              " target="_blank ">投注</a></p>
+                            </dd>-->
+        </dl>
+        <dl name="uploadTabDiv " style="display: none; ">
+          <dd>
+            <h6> <cite> <b> 胜负彩 </b> </cite> <span> <strong> 第2018035期 </strong> </span> 2018-03-12 </h6>
+            <em> 0 1 3 0 1 3 3 1 0 1 3 0 3 3 </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+          <dd>
+            <h6> <cite> <b> 半全场 </b> </cite> <span> <strong> 第2018035期 </strong> </span> 2018-03-12 </h6>
+            <em> 1 0 1 1 3 3 3 3 1 1 1 1 </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+          <dd class="last ">
+            <h6> <cite> <b> 进球彩 </b> </cite> <span> <strong> 第2018035期 </strong> </span> 2018-03-12 </h6>
+            <em> 0 1 2 2 2 0 0 0 </em>
+            <p> <a href="/" target="_blank "> 详情 </a> | <a href="/" target="_blank "> 投注 </a> </p>
+          </dd>
+        </dl>
+      </div>
+      <!-- 中奖排行 -->
+      <div class="kjBox phBox border m-b ">
+        <h5> <span> <b> 店内中奖排行 </b> <a href="/" name="uploadTab " class="on "> 月排行 </a> <a href="/" name="uploadTab
+              " class=" "> 历史排行 </a> </span> </h5>
+        <ul class="zjList ">
+          <li> <i> 1 </i> <span> hj0**** </span> <em> 2,502.96元 </em> </li>
+        </ul>
+        <ul class="zjList " style="display:none; ">
+          <li> <i> 1 </i> <span> hj0**** </span> <em> 2,508.6元 </em> </li>
+        </ul>
+      </div>
+      <!-- <dl class="download border m-b ">
+                    <dt><a href="/ ">stcpd.com</a></dt>
+                    <dd>
+                    <b>投注站桌面快捷</b>
+                    <span>轻松打开投注站网站</span>
+                    <p><a href="/homelink.jhtml " target="_blank ">立即下载</a></p>
+                    </dd>
+                    </dl> -->
+      <div class="clear "> </div>
+      <div class="faqBox border ">
+        <h5> <span> 常见问题 </span> </h5>
+        <ul>
+          <li> <a href="10.html"> &middot;在哪里查看我购买的游戏是否中奖？ </a> </li>
+          <li> <a href="10.html"> &middot;网上银行充值未即时到账怎么办？ </a> </li>
+          <li> <a href="10.html"> &middot;网站可以追号吗？追号是什么意思？ </a> </li>
+          <li> <a href="10.html"> &middot;没有网银如何给账户充值？ </a> </li>
+          <li> <a href="10.html"> &middot;中大奖了怎么办？ </a> </li>
+          <li> <a href="10.html"> &middot;为什么要实名认证？ </a> </li>
+          <li> <a href="10.html"> &middot;为什么有的单子会逾期？会被撤销？ </a> </li>
+        </ul>
+      </div>
+    </div>
+    <!--/mainL--> 
+    <!--mainR-->
+    <div class="mainR ">
+      <div class="LoginBox_fdm p-t p-b ">
+        <div class="ban_news ">
+          <div class="LunBo ">
+            <ul>
+              <!--轮播图遍历 -->
+              <li title="必看！发单人行为准则！营造公平发单环境！ " style="display: list-item; "> <a href="/" target="_blank "> <img src="./img/banner.jpg
+              " width="510 " height="200 " /> </a> </li>
+              <li title="寻神第三季！寻找发单连红大神！ " style="display: none; "> <a href="/" target="_blank "> <img src="./img/HD38LH.jpg
+              " width="510 " height="200 " /> </a> </li>
+              <li title="红出一片天！“竞彩红人”5连红冲击榜首！ " style="display: none; "> <a href="/" target="_blank "> <img src="./img/312ZJ.jpg
+              " width="510 " height="200 " /> </a> </li>
+              <li title="87每日2串1推荐——周一 " style="display: none; "> <a href="/" target="_blank "> <img src="./img/21312.jpg
+              " width="510 " height="200 " /> </a> </li>
+              <li title="87每日凯利推荐——周一 " style="display: none; "> <a href="/" target="_blank "> <img src="./img/KL312.jpg
+              " width="510 " height="200 " /> </a> </li>
+              <!--轮播图遍历 --> 
+              <!-- <li title="欧洲杯 " class="CurrentPic "><a href="http://mp.weixin.qq.com/s?__biz=MzI0NjE1NDY1Mg==&mid=2650100661&idx=3&sn=fa4d843d7e0bf405111fae966f02495b#rd
+              " target="_blank "><img src="images/common/banner2016072701.png " width="510 " height="200 "/></a></li>
+                                    <li title="大乐透 " ><a href="http://mp.weixin.qq.com/s?__biz=MzI0NjE1NDY1Mg==&mid=2650100661&idx=2&sn=85adc7d467ab0742b2ac2f4ee2445fdd&ptlang=2052&ADUIN=136503173&ADSESSION=1469594714&ADTAG=CLIENT.QQ.5455_.0&ADPUBNO=26550#rd
+              " target="_blank "><img src="images/common/banner2016072702.png " width="510 " height="200 "/></a></li>               
+                                    <li title="大乐透 " ><a href="/lottery/dlt/index.jhtml "><img src="images/common/banner2016072201.png
+              " width="510 " height="200 "/></a></li> -->
+            </ul>
+            <div class="LunBoNum "> 
+              <!--轮播图遍历 --> 
+              <span class="CurrentNum "> </span> <span class=" "> </span> <span class=" "> </span> <span class="
+              "> </span> <span class=" "> </span> 
+              <!--轮播图遍历 --> 
+            </div>
+            <!--<div class="slidBtn btnL " style="display:none; ">&lt;</div>
+                                <div class="slidBtn btnR " style="display:none; ">&gt;</div>--> 
+          </div>
+          <div class="newsList border cf ">
+            <div> 
+              <!-- <li title="单关 " class="CurrentPic "><a href="/lottery/jczq/index.jhtml?tagType=d "><img src="images/common/ouguan1.png?t=1
+              " width="510 " height="200 "></a></li> --> 
+              <strong> <a href="/" target="_blank "> 决战里约，奥运足球赛程表来啦！ </a> </strong>
+              <ul class="newsListUl ">
+                <li> <a href="/" target="_blank "> &middot;亚泰保级战球跟盘口踢 中超又要变假超 </a> </li>
+                <li> <a href="/" target="_blank "> &middot;梅西复出破门 巴萨4：0高科 </a> </li>
+                <li> <a href="/" target="_blank "> &middot;足协：尊重高洪波辞职决定，启动选帅工 </a> </li>
+                <li> <a href="/" target="_blank "> &middot;中国足球现状糟糕的内在原因是什么？ </a> </li>
+              </ul>
+            </div>
+            <div> <strong> <a href="/" target="_blank "> 加快创新步伐 体彩列入体育产业发展重 </a> </strong>
+              <ul class="newsListUl ">
+                <li> <a href="/" target="_blank "> &middot;国足生死战惊现重大利好！客战乌兹别克 </a> </li>
+                <li> <a href="/" target="_blank "> &middot;想当年斩恒大踩国安扫中超 现如今。。 </a> </li>
+                <li> <a href="/" target="_blank "> &middot;国足失利印证赛前担忧 赔率预示大热必 </a> </li>
+                <li> <a href="/" target="_blank "> &middot;国足主场0-1叙利亚，国足对不起微博 </a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="login_reg ">
+          <h4 name="loginBtn_content " class="loginBox p-b "> <a id="loginBtn " class="dlBtn " href="#
+              "> 用户登录 </a> <a href="/" class="zcBtn "> 免费注册 </a> </h4>
+          <p id="caizhanTx " style="display; " class="cztxBox m-b "> <cite> 彩站提醒 </cite> 
+            <!--本站平台销售截止时间：周一至周五为23:55，周六至周日为00:55。场次截止时间为开赛前5分钟，需要自由转场的客户须提前15-20分钟，以确保店内完整出票。<b>2012-10-11</b>--> 
+            <font color="red "> 本站客服QQ:85220104 电话/微信:18699446729 支付宝不能充值的用户，请联系本站线下充值(支持花呗和信用卡支付)。或者银行卡绑定易宝进行储值。 </font> </p>
+          <div class="tjTab border ">
+            <h6> <a href="/" name="IndexRightNewsTab " class="on "> 本店推荐 </a> <a href="/" name="IndexRightNewsTab "> 本店公告 </a> <span> &nbsp; </span> </h6>
+            <ul name="IndexRightNewsDIV " style="display: block; ">
+              <!--<li><a href="/"><cite>·020期3D试前：独胆4连准、12中9期！</cite></a></li>
+                                    <li><a href="/"><cite>·020期3D试前：独胆4连准、12中9期！</cite></a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>-->
+              <li> <a href="/" target="_blank "> <font> &middot;13039期七星彩真子丹预测 </font> </a> </li>
+              <li> <a href="/" target="_blank "> <font> &middot;13039期红鬼七星彩预测神胆 </font> </a> </li>
+              <li> <a href="/" target="_blank "> <font> &middot;风萧易寒大乐透预测039期 </font> </a> </li>
+              <li> <a href="/" target="_blank "> <font> &middot;左煞039期大乐透预测后区4胆 </font> </a> </li>
+            </ul>
+            <ul name="IndexRightNewsDIV " style="display: none; ">
+              <!--<li><a href="/"><cite>·020期3D试前：独胆4连准、12中9期！</cite></a></li>
+                                    <li><a href="/"><cite>·020期3D试前：独胆4连准、12中9期！</cite></a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>
+                                    <li><a href="/">·020期3D试前：独胆4连准、12中9期！</a></li>-->
+              <li> <a href="/" target="_blank "> <font> &middot;诡异！男子抄袭号码揽下1394 </font> </a> </li>
+              <li> <a href="/" target="_blank "> <font> &middot;愤怒！男子中500万瞒老婆并离 </font> </a> </li>
+              <li> <a href="/" target="_blank "> <font> &middot;神人！天津651万大奖得主自曝 </font> </a> </li>
+              <li> <a href="/" target="_blank "> <font> &middot;大乐透开两同尾数头奖1注100 </font> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="clear "> </div>
+      </div>
+      <div class="touzhuBox border ">
+        <div class="tzBoxL ">
+          <h4> <span class="tzIndexT01 "> <em id="dlt " class="on "> 大乐透 </em> </span> <span class="tzIndexT02
+              "> <em id="pls "> 排列三 </em> </span> </h4>
+          <dl id="dltDl " class="tzIndexDl ">
+            <dd>
+              <p class="note " style="height:52px; "> <b style="margin-right:50px; "> 第2018029期 </b> 截止时间: <b> 2018-03-14 20:00 </b> 周三 <br />
+                奖池: <em> 5.12594153E9(滚存) </em> 元 </p>
+              <p class="prompt "> <span> <em> 前区 </em> :从1-35中选5个整数 </span> <cite> 后区 </cite> :从1-12中选2个整数 </p>
+              <p id="dltResult " class="result "> <em> 03 </em> <em> 06 </em> <em> 11 </em> <em> 26 </em> <em style="margin-right:34px; "> 32 </em> <b> 08 </b> <b> 09 </b> </p>
+              <p class="tzBtn "> <span class="f-l "> <a id="dltSubmitBtn " gamemessage="188,11008207,2018029,2018-03-14
+              20:30:00,大乐透 "
+                                            class="ljtzBtn " href="/"> 预约取票 </a> <span class="f-l " style="padding:0;*+margin-top:0;
+              "> <a href="/" class="jixuanBtn " id="dltJixuanBtn "> <em> <img src="./img/gzy-hyh.gif " /> &nbsp; </em> 换一注 </a> </span> 
+                <!--a class="empty " href="/">清空</a--> 
+                </span> <span class="f-r zzxh "> <a href="/"> [自助选号] </a> </span> </p>
+            </dd>
+          </dl>
+          <dl id="plsDl " class="tzIndexDl " style="display:none; ">
+            <dd>
+              <p class="note " style="height:52px; "> <b style="margin-right:50px; "> 第2018065期 </b> 截止时间: <b> 2018-03-13 20:00:00 </b> 周二 </p>
+              <p class="prompt " style="*+margin-top:-2px; "> <span> 从0-9中随机选取3个数字 </span> </p>
+              <p id="plsResult " class="result "> <em> 0 </em> <em> 0 </em> <em> 0 </em> </p>
+              <p class="tzBtn " style="margin-top:1px;*+margin-top:0; "> <span class="f-l "> <a id="plsSubmitBtn
+              " gamemessage="163,11007201,2018065,2018-03-13 20:30:00,排列三 "
+                                            class="ljtzBtn " href="/"> 预约取票 </a> <span class="f-l " style="padding:0;*+margin-top:0;
+              "> <a href="/" class="jixuanBtn " id="plsJixuanBtn "> <em> <img src="./img/gzy-hyh.gif " /> &nbsp; </em> 换一注 </a> </span> 
+                <!--a class="empty " href="/">清空</a--> 
+                </span> <span class="f-r zzxh "> <a href="/"> [自助选号] </a> </span> </p>
+            </dd>
+          </dl>
+        </div>
+        <div class="tzBoxR ">
+          <h3> <a class="more " name="meal_buy1 " href="/"> 更多&gt;&gt; </a> 大乐透套餐 </h3>
+          <table class="tzIndexTable " width="100% " border="0 ">
+            <tbody>
+              <tr class="bg-n ">
+                <th class="a-l p-l_15 "> 类型 </th>
+                <th> 倍数 </th>
+                <th> 期数 </th>
+                <th style="width:58px; "> 金额 </th>
+                <th>&nbsp; </th>
+              </tr>
+              <tr>
+                <td class="a-l p-l_15 "> 包月套餐 </td>
+                <td><input name="meal_mult " class="tdText01 " type="text " value="1 " /></td>
+                <td><span name="meal_period "> 14 </span> 期 </td>
+                <td><span name="meal_money "> 28 </span> 元 </td>
+                <td class="p-r_10 "><a class="tdBtn " name="meal_buy " href="/"> 购买 </a></td>
+              </tr>
+              <tr>
+                <td class="a-l p-l_15 "> 包季套餐 </td>
+                <td><input name="meal_mult " class="tdText01 " type="text " value="1 " /></td>
+                <td><span name="meal_period "> 40 </span> 期 </td>
+                <td><span name="meal_money "> 80 </span> 元 </td>
+                <td class="p-r_10 "><a class="tdBtn " name="meal_buy " href="/"> 购买 </a></td>
+              </tr>
+              <tr>
+                <td class="a-l p-l_15 "> 半年套餐 </td>
+                <td><input name="meal_mult " class="tdText01 " type="text " value="1 " /></td>
+                <td><span name="meal_period "> 79 </span> 期 </td>
+                <td><span name="meal_money "> 158 </span> 元 </td>
+                <td class="p-r_10 "><a class="tdBtn " name="meal_buy " href="/"> 购买 </a></td>
+              </tr>
+              <tr class="b-n ">
+                <td class="a-l p-l_15 "> 整年套餐 </td>
+                <td><input name="meal_mult " class="tdText01 " type="text " value="1 " /></td>
+                <td><span name="meal_period "> 154 </span> 期 </td>
+                <td><span name="meal_money "> 308 </span> 元 </td>
+                <td class="p-r_10 "><a class="tdBtn " name="meal_buy " href="/"> 购买 </a></td>
+              </tr>
+              <tr class="b-n ">
+                <td class="a-l p-l_15 "> 自定义套餐 </td>
+                <td><input name="meal_mult " class="tdText01 " type="text " value="1 " /></td>
+                <td><input name="meal_period " class="tdText01 " type="text " value="1 " />
+                  期 </td>
+                <td><span name="meal_money "> 2 </span> 元 </td>
+                <td class="p-r_10 "><a class="tdBtn " name="meal_buy " href="/"> 购买 </a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="clear "> </div>
+      </div>
+      <div class="zcIndexBox m-t ">
+        <h4 id="jctab "> <a class="on " href="/"> 让球胜平负 </a> <a href="/"> 让分胜负 </a> </h4>
+        <table width="100% " border="0 " id="jcTable227 " class="jczqTable ">
+          <tbody>
+            <tr class="bg-7aabeb c-f ">
+              <th colspan="2 "> 场次 </th>
+              <th> 赛事 </th>
+              <!--截止时间问题，暂时注释 <th>
+                                    <select name="changeViewTime ">
+                                    <option value="0 ">截止</option>
+                                    <option value="1 ">开赛</option>
+                                    </select>
+                                    </th>
+                                    -->
+              <th> 主队 </th>
+              <th> 让球 </th>
+              <th> 客队 </th>
+              <th colspan="3 "> 平均赔率 </th>
+              <th colspan="3 "> 分析 </th>
+              <th class="w-55 "> 胜 </th>
+              <th class="w-55 "> 平 </th>
+              <th class="w-55 "> 负 </th>
+              <th class="w-30 " style="border-right:0; "> 包 </th>
+            </tr>
+            <tr id="20180313001 " issue="20180313 " no="2001 " week="001 ">
+              <td class="w-30 "> 1 </td>
+              <td class="c-3 "> 周二001 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313001_srd " name="startOrEndTime " dt="16:30 " saleclosetime="16:30 "
+                                    style="display: none; "> 16:30 </td>
+              <td class="c-878686 " title="墨尔本胜利 "><em class="c-0f3f94 "> 墨尔本胜利 </em></td>
+              <td> 1 </td>
+              <td class="c-878686 " title="川崎前锋 "><em class="c-0f3f94 "> 川崎前锋 </em></td>
+              <td> 2.76 </td>
+              <td> 3.62 </td>
+              <td> 2.24 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 1.52 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 4.15 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 4.35 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313002 " issue="20180313 " no="2002 " week="002 ">
+              <td class="w-30 "> 2 </td>
+              <td class="c-3 "> 周二002 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313002_srd " name="startOrEndTime " dt="18:00 " saleclosetime="18:00 "
+                                    style="display: none; "> 18:00 </td>
+              <td class="c-878686 " title="鹿岛鹿角 "><em class="c-0f3f94 "> 鹿岛鹿角 </em></td>
+              <td> -1 </td>
+              <td class="c-878686 " title="悉尼FC "><em class="c-0f3f94 "> 悉尼FC </em></td>
+              <td> 1.39 </td>
+              <td> 4.46 </td>
+              <td> 6.97 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 2.25 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.45 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 2.53 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313003 " issue="20180313 " no="2003 " week="003 ">
+              <td class="w-30 "> 3 </td>
+              <td class="c-3 "> 周二003 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313003_srd " name="startOrEndTime " dt="18:00 " saleclosetime="18:00 "
+                                    style="display: none; "> 18:00 </td>
+              <td class="c-878686 " title="蔚山现代 "><em class="c-0f3f94 "> 蔚山现代 </em></td>
+              <td> 1 </td>
+              <td class="c-878686 " title="上海上港 "><em class="c-0f3f94 "> 上海上港 </em></td>
+              <td> 2.97 </td>
+              <td> 3.64 </td>
+              <td> 2.11 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 1.70 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.90 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 3.52 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313004 " issue="20180313 " no="2004 " week="004 ">
+              <td class="w-30 "> 4 </td>
+              <td class="c-3 "> 周二004 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313004_srd " name="startOrEndTime " dt="20:00 " saleclosetime="20:00 "
+                                    style="display: none; "> 20:00 </td>
+              <td class="c-878686 " title="上海申花 "><em class="c-0f3f94 "> 上海申花 </em></td>
+              <td> 1 </td>
+              <td class="c-878686 " title="水原三星 "><em class="c-0f3f94 "> 水原三星 </em></td>
+              <td> 3.05 </td>
+              <td> 3.45 </td>
+              <td> 2.13 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 1.70 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.70 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 3.70 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313005 " issue="20180313 " no="2005 " week="005 ">
+              <td class="w-30 "> 5 </td>
+              <td class="c-3 "> 周二005 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313005_srd " name="startOrEndTime " dt="20:30 " saleclosetime="20:30 "
+                                    style="display: none; "> 20:30 </td>
+              <td class="c-878686 " title="大不里士拖拉机 "><em class="c-0f3f94 "> 大不里士拖 </em></td>
+              <td> -1 </td>
+              <td class="c-878686 " title="阿布扎比贾兹拉 "><em class="c-0f3f94 "> 阿布扎比贾 </em></td>
+              <td> 1.62 </td>
+              <td> 3.63 </td>
+              <td> 5.12 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 3.05 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.40 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 1.98 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313006 " issue="20180313 " no="2006 " week="006 ">
+              <td class="w-30 "> 6 </td>
+              <td class="c-3 "> 周二006 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313006_srd " name="startOrEndTime " dt="23:15 " saleclosetime="23:15 "
+                                    style="display: none; "> 23:15 </td>
+              <td class="c-878686 " title="迪拜瓦斯尔 "><em class="c-0f3f94 "> 迪拜瓦斯尔 </em></td>
+              <td> 1 </td>
+              <td class="c-878686 " title="波斯波利斯 "><em class="c-0f3f94 "> 波斯波利斯 </em></td>
+              <td> 5.08 </td>
+              <td> 3.77 </td>
+              <td> 1.60 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 2.30 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.50 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 2.45 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313007 " issue="20180313 " no="2007 " week="007 ">
+              <td class="w-30 "> 7 </td>
+              <td class="c-3 "> 周二007 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313007_srd " name="startOrEndTime " dt="23:15 " saleclosetime="23:15 "
+                                    style="display: none; "> 23:15 </td>
+              <td class="c-878686 " title="多哈萨德 "><em class="c-0f3f94 "> 多哈萨德 </em></td>
+              <td> -1 </td>
+              <td class="c-878686 " title="纳萨夫 "><em class="c-0f3f94 "> 纳&nbsp;萨&nbsp;夫 </em></td>
+              <td> 1.50 </td>
+              <td> 4.13 </td>
+              <td> 5.52 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 2.60 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.40 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 2.22 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313008 " issue="20180313 " no="2008 " week="008 ">
+              <td class="w-30 "> 8 </td>
+              <td class="c-3 "> 周二008 </td>
+              <td class="c-f " bgcolor="#336600 " title="亚冠 "> 亚&nbsp;&nbsp;&nbsp;&nbsp;冠 </td>
+              <td id="20180313008_srd " name="startOrEndTime " dt="01:15 " saleclosetime="00:00 "
+                                    style="display: none; "> 00:00 </td>
+              <td class="c-878686 " title="吉达阿赫利 "><em class="c-0f3f94 "> 吉达阿赫利 </em></td>
+              <td> -1 </td>
+              <td class="c-878686 " title="多哈加拉法 "><em class="c-0f3f94 "> 多哈加拉法 </em></td>
+              <td> 1.50 </td>
+              <td> 4.19 </td>
+              <td> 5.44 </td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="b-ddd c-3 tdBg " val="3 "> 2.42 </td>
+              <td class="b-ddd c-3 tdBg " val="1 "> 3.55 </td>
+              <td class="b-ddd c-3 tdBg " val="0 "> 2.30 </td>
+              <td name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr class="b-t gzy-ggfs ">
+              <td class="p-l_10 a-l c-3 " colspan="17 "><b> 过关方式： </b> <span id="divCheckbox227 "> 请至少选择&nbsp; <em> 2 </em> &nbsp;场比赛 </span></td>
+            </tr>
+            <tr class="c-3 gzy-ljtz ">
+              <td colspan="17 "><span class="l "> <b> 倍数: </b>
+                <input id="multiple227 " class="w-50 text " type="text " value="1 " />
+                倍 </span> 您选择了：&nbsp; <em id="selectedNum227 "> 0 </em> &nbsp;场比赛，共&nbsp; <em id="betNum227
+              "> 0 </em> &nbsp;注 总金额：&nbsp; <em id="moneyNum227 "> ￥0 </em> &nbsp;
+                <input class="touzhuBtn " id="submitBtn227 " value="立即投注 " type="button "
+                                        /></td>
+            </tr>
+          </tbody>
+        </table>
+        <table width="100% " border="0 " id="jcTable228 " class="sfcTable " style="display:none; ">
+          <tbody>
+            <tr>
+              <th colspan="2 "> 赛事编号 </th>
+              <th> 赛事类型 </th>
+              <!--截止时间问题，暂时注释 <th>
+                                    <select name="changeViewTime ">
+                                    <option value="0 ">截止</option>
+                                    <option value="1 ">开赛</option>
+                                    </select>
+                                    </th>
+                                    -->
+              <th> 客队 </th>
+              <th> 让分 </th>
+              <th> 主队 </th>
+              <th colspan="3 "> 分析 </th>
+              <th> 主负 </th>
+              <th> 主胜 </th>
+              <th class="w-30 " style="border-right:0; "> 包 </th>
+            </tr>
+            <tr id="20180312304 " issue="20180312 " no="1304 " week="304 ">
+              <td class="w-30 "> 1 </td>
+              <td class="w-50 a-l "> 周一304 </td>
+              <td class="c-f " bgcolor="#000000 " title="美职篮 "> 美职篮 </td>
+              <td id="20180312304_srd " name="startOrEndTime " dt="2018-03-13 10:30 " saleclosetime="2018-03-13 10:30 "
+                                    style="display: none; "> 2018-03-13 10:30 </td>
+              <td class="c-878686 " title="迈阿密热火 "><em class="c-0f3f94 "> 迈阿密热火 </em></td>
+              <td></td>
+              <td class="c-878686 " title="波特兰开拓者 "><em class="c-0f3f94 "> 波特兰开拓者 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.75 </td>
+              <td class="tdBg " val="1 "> 1.75 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313301 " issue="20180313 " no="2301 " week="301 ">
+              <td class="w-30 "> 2 </td>
+              <td class="w-50 a-l "> 周二301 </td>
+              <td class="c-f " bgcolor="#000000 " title="欧篮联 "> 欧篮联 </td>
+              <td id="20180313301_srd " name="startOrEndTime " dt="2018-03-14 03:45 " saleclosetime="2018-03-14 00:00 "
+                                    style="display: none; "> 2018-03-14 00:00 </td>
+              <td class="c-878686 " title="皇家马德里 "><em class="c-0f3f94 "> 皇家马德里 </em></td>
+              <td></td>
+              <td class="c-878686 " title="米兰 "><em class="c-0f3f94 "> 米兰 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.68 </td>
+              <td class="tdBg " val="1 "> 1.81 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313302 " issue="20180313 " no="2302 " week="302 ">
+              <td class="w-30 "> 3 </td>
+              <td class="w-50 a-l "> 周二302 </td>
+              <td class="c-f " bgcolor="#000000 " title="美大学篮 "> 美大学篮 </td>
+              <td id="20180313302_srd " name="startOrEndTime " dt="2018-03-14 06:40 " saleclosetime="2018-03-14 00:00 "
+                                    style="display: none; "> 2018-03-14 00:00 </td>
+              <td class="c-878686 " title="拉德福大学 "><em class="c-0f3f94 "> 拉德福大学 </em></td>
+              <td></td>
+              <td class="c-878686 " title="长岛大学 "><em class="c-0f3f94 "> 长岛大学 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.81 </td>
+              <td class="tdBg " val="1 "> 1.68 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313303 " issue="20180313 " no="2303 " week="303 ">
+              <td class="w-30 "> 4 </td>
+              <td class="w-50 a-l "> 周二303 </td>
+              <td class="c-f " bgcolor="#000000 " title="美职篮 "> 美职篮 </td>
+              <td id="20180313303_srd " name="startOrEndTime " dt="2018-03-14 07:00 " saleclosetime="2018-03-14 00:00 "
+                                    style="display: none; "> 2018-03-14 00:00 </td>
+              <td class="c-878686 " title="印第安那步行者 "><em class="c-0f3f94 "> 印第安那步行者 </em></td>
+              <td></td>
+              <td class="c-878686 " title="费城76人 "><em class="c-0f3f94 "> 费城76人 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.75 </td>
+              <td class="tdBg " val="1 "> 1.75 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313304 " issue="20180313 " no="2304 " week="304 ">
+              <td class="w-30 "> 5 </td>
+              <td class="w-50 a-l "> 周二304 </td>
+              <td class="c-f " bgcolor="#000000 " title="美职篮 "> 美职篮 </td>
+              <td id="20180313304_srd " name="startOrEndTime " dt="2018-03-14 07:00 " saleclosetime="2018-03-14 00:00 "
+                                    style="display: none; "> 2018-03-14 00:00 </td>
+              <td class="c-878686 " title="明尼苏达森林狼 "><em class="c-0f3f94 "> 明尼苏达森林狼 </em></td>
+              <td></td>
+              <td class="c-878686 " title="华盛顿奇才 "><em class="c-0f3f94 "> 华盛顿奇才 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.75 </td>
+              <td class="tdBg " val="1 "> 1.75 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313306 " issue="20180313 " no="2306 " week="306 ">
+              <td class="w-30 "> 6 </td>
+              <td class="w-50 a-l "> 周二306 </td>
+              <td class="c-f " bgcolor="#000000 " title="美职篮 "> 美职篮 </td>
+              <td id="20180313306_srd " name="startOrEndTime " dt="2018-03-14 07:30 " saleclosetime="2018-03-14 00:00 "
+                                    style="display: none; "> 2018-03-14 00:00 </td>
+              <td class="c-878686 " title="多伦多猛龙 "><em class="c-0f3f94 "> 多伦多猛龙 </em></td>
+              <td></td>
+              <td class="c-878686 " title="布鲁克林篮网 "><em class="c-0f3f94 "> 布鲁克林篮网 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.75 </td>
+              <td class="tdBg " val="1 "> 1.75 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313307 " issue="20180313 " no="2307 " week="307 ">
+              <td class="w-30 "> 7 </td>
+              <td class="w-50 a-l "> 周二307 </td>
+              <td class="c-f " bgcolor="#000000 " title="美职篮 "> 美职篮 </td>
+              <td id="20180313307_srd " name="startOrEndTime " dt="2018-03-14 07:30 " saleclosetime="2018-03-14 00:00 "
+                                    style="display: none; "> 2018-03-14 00:00 </td>
+              <td class="c-878686 " title="达拉斯独行侠 "><em class="c-0f3f94 "> 达拉斯独行侠 </em></td>
+              <td></td>
+              <td class="c-878686 " title="纽约尼克斯 "><em class="c-0f3f94 "> 纽约尼克斯 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.75 </td>
+              <td class="tdBg " val="1 "> 1.75 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr id="20180313308 " issue="20180313 " no="2308 " week="308 ">
+              <td class="w-30 "> 8 </td>
+              <td class="w-50 a-l "> 周二308 </td>
+              <td class="c-f " bgcolor="#000000 " title="美职篮 "> 美职篮 </td>
+              <td id="20180313308_srd " name="startOrEndTime " dt="2018-03-14 08:00 " saleclosetime="2018-03-14 08:00 "
+                                    style="display: none; "> 2018-03-14 08:00 </td>
+              <td class="c-878686 " title="洛杉矶快船 "><em class="c-0f3f94 "> 洛杉矶快船 </em></td>
+              <td></td>
+              <td class="c-878686 " title="芝加哥公牛 "><em class="c-0f3f94 "> 芝加哥公牛 </em></td>
+              <td><a href="/" class="c-0f3f94 "> 欧 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 亚 </a></td>
+              <td><a href="/" class="c-0f3f94 "> 析 </a></td>
+              <td class="tdBg " val="0 "> 1.75 </td>
+              <td class="tdBg " val="1 "> 1.75 </td>
+              <td class="c-0f3f94 " name="bao " style="cursor:pointer; "> 包 </td>
+            </tr>
+            <tr class="b-t gzy-ggfs ">
+              <td class="p-l_10 a-l c-3 " colspan="13 "><b> 过关方式: </b></td>
+            </tr>
+            <tr class="c-3 gzy-ljtz ">
+              <td colspan="13 "><span class="l "> <b> 倍数: </b>
+                <input id="multiple228 " class="w-50 text " type="text " value="1 " />
+                倍 <span id="divCheckbox228 "> </span> </span> 您选择了： <em id="selectedNum228 "> 0 </em> 场比赛，共 <em id="betNum228
+              "> 0 </em> 注 总金额： <em id="moneyNum228 "> ￥0 </em>
+                <input class="touzhuBtn " id="submitBtn228 " value="立即投注 " type="button "
+                                        /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="clear "> </div>
+      <dl class="cpPhotoBox border m-t ">
+        <dt class="next "> <a onfocus="this.blur(); " href="/"> 下一张 </a> </dt>
+        <dt class="prev "> <a onfocus="this.blur(); " href="/"> 上一张 </a> </dt>
+        <dd>
+          <ul id="ticketLightBox ">
+          </ul>
+        </dd>
+      </dl>
+      <div class="clear "> </div>
+    </div>
+    <input type="hidden " id="winTickets " value=" " />
+    <!--/mainR-->
+    <div class="clear "> </div>
+  </div>
+  <!-- main end --> 
+  <a href="/"> <img src="./img/online.png " id="followOnline " /> </a> 
+  <!--notice start>
+            <div name="popdiv " style="position:fixed; background:#000; top:0; right:0; bottom:0; left:0; opacity:.3; filter:alpha(opacity=30);
+              z-index: 99999; "></div>
+            <div name="popdiv " style="width:750px; height:150px; background:#fff; position:absolute; top:100px; left:50%;
+              margin-top:0px; margin-left:-392px; padding:20px; border:8px solid #c9c9c9; z-index: 999999; " >
+            <p style="font-size:14px; text-indent:2em; line-height: 30px; color:#ff0000; padding:10px 0 ">尊敬的87用户，我们将于1月5日00:10-03:00，对系统升级，升级期间网站无法访问，特向广大用户告知，感谢大家的理解与支持！</p>
+            <p style="font-size:14px; text-indent:2em; line-height: 30px; text-align: center; margin-top:15px;
+              "><a style="outline: none; border: none; " href="javascript:; " id="Iknow ">我知道了</a></p>
+            </div--> 
+  <!--notice end--> 
+  <!--footer start-->
+  <div class="footer " style="background: #f1f1f1;margin-top: 10px ">
+    <div class="links bg-w ">
+      <div class="linkBottom "> <img src="./img/bottom.png " alt=" " /> </div>
+      <ul>
+        <li class="one "> <img src="./img/lc.png " alt=" " /> <b> 购彩流程 </b> </li>
+        <li> <a href="10.html"> 注册身份信息 </a> </li>
+        <li> <a href="10.html"> 投注和付款 </a> </li>
+        <li> <a href="10.html"> 查看订单 </a> </li>
+        <li> <a href="10.html"> 领奖与兑奖 </a> </li>
+      </ul>
+      <ul>
+        <li style="padding-top:4px;margin-bottom:-3px; "> <img src="./img/tk.png " alt=" " /> <b> 充值提款 </b> </li>
+        <li> <a href="10.html"> 如何充值 </a> </li>
+        <li> <a href="10.html"> 如何提款 </a> </li>
+        <li> <a href="10.html"> 提款注意事项 </a> </li>
+        <li> <a href="10.html"> 更改提款账户 </a> </li>
+      </ul>
+      <ul style="background:none; ">
+        <li class="ml60 one " style="padding-top:3px; "> <img src="./img/zc.png " alt=" " /> <b> 帮助与支持 </b> </li>
+        <li> <a href="10.html"> 帮助中心 </a> </li>
+        <li> <a href="10.html"> 常见问题 </a> </li>
+        <li> <a href="10.html"> 意见及建议 </a> </li>
+        <li> <a href="10.html"> 大奖领取流程 </a> </li>
+      </ul>
+      <!-- <ul class="phone ">
+                    <li class="first ">投注站电话</li>
+                    <li><b class="c-ff7200 " id="shopTel "></b></li>
+                    </ul>-->
+      <div class="clear "> </div>
+      <div class="footerBg "> </div>
+    </div>
+    <p class="copy " style="background: #FFF "> <a href="/"> power by stcpd.com </a> <a href="/"
+                    logo_type="realname " logo_size="83x30 " target="_blank "> <img width="83 " height="30 " style="border:
+              none; " alt="安全联盟认证 " src="./img/sm_83x30.png "
+                        /> </a> <br />
+      备案/许可证编号为： <a href="/" target="_blank "> 沪ICP备14049982号 </a> |沪公网安备号：11010802017926|客服热线： <b> 4000879187 </b> <br />
+      <!-- <em>stcpd.com郑重提示：游戏有风险，投注需谨慎 不向未满18周岁的青少年出售游戏 </em> --> 
+      <!-- <em>stcpd.com郑重提示：游戏有风险。 </em> --> 
+    </p><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+  </div>
+  <div style="height:0px;overflow:hidden; "> <a href="/"
+                target="_blank "> <img border="0 " src="./img/21.gif " width="20 " height="20 " /> </a> </div>
+  <div id="tsBox " class="ui_alert ui_alert2 " style="display:none; ">
+    <h3> 温馨提示 </h3>
+    <div class="ui_alert_main ">
+      <div class="ui_alert_txt " id="tsBoxContent "> 您好，请确定您要保存的信息！ </div>
+      <div class="ui_alert_btns "> <a href="/" class="a_sure " id="submitBtnEnd "> 确定 </a> <a href="/" class="a_sure
+              a_esc " id="closeBtn4 "> 取消 </a> </div>
+    </div>
+    <a href="/" class="close " id="closeBtn3 "> &times; </a> </div>
+  <div id="tsBoxJc " class="ui_alert ui_alert2 " style="display:none; ">
+    <h3> 温馨提示 </h3>
+    <div class="ui_alert_main ">
+      <div class="ui_alert_txt " id="tsBoxContentJc "> 您好，请确定您要保存的信息！ </div>
+      <div class="ui_alert_btns "> <a href="/" class="a_sure " id="submitBtnEndJc "> 确定 </a> <a href="/" class="a_sure
+              a_esc " id="closeBtn6 "> 取消 </a> </div>
+    </div>
+    <a href="/" class="close " id="closeBtn5 "> &times; </a> </div>
+  <div id="hemaiBox " class="ui_alert ui_alert2 " style="display:none; ">
+    <h3> 温馨提示 </h3>
+    <div>
+      <div id="hemaiBoxContent "> </div>
+      <div class="ui_alert_btns "> <a href="/" class="a_sure " id="hemaiconfirm "> 确定 </a> <a href="/" class="a_sure
+              a_esc " id="hemaiCancel "> 取消 </a> </div>
+    </div>
+    <a href="/" class="close " id="hemaiCloseBox "> &times; </a> </div>
+  <div id="loginBox " class="dlBox " style="display:none; ">
+    <h3 class="dlBox_red_bg "> <span> <a id="closeLoginBtn " href="/"> <img src="./img/loginclose.gif " alt="关闭 " /> </a> </span> 彩民登录 </h3>
+    <div class="dlBox_c ">
+      <div id="loginError " style="margin-top:-20px;height:20px;color:red; "> </div>
+      <table width="100% " border="0 " cellspacing="0 " cellpadding="0 ">
+        <tbody>
+          <tr>
+            <td width="60 " height="40 "> 用户名： </td>
+            <td><input type="text " name="username " id="username " class="dlBox_wbk " /></td>
+          </tr>
+          <tr>
+            <td height="40 "> 密&nbsp;&nbsp;&nbsp;&nbsp;码： </td>
+            <td><input type="password " name="password " id="password " class="dlBox_wbk "
+                                    /></td>
+          </tr>
+          <tr>
+            <td height="35 ">&nbsp;</td>
+            <td class="dlBox_f12 "><a href="/"> <img id="loginSubmit " src="./img/loginbtn.png " alt="登录 " width="88 "
+                                        height="28 " align="absmiddle " /> </a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#
+              " target="_blank "> <u> 忘记密码？ </u> </a></td>
+          </tr>
+          <tr>
+            <td height="35 ">&nbsp;</td>
+            <td class="dlBox_f12 "><a href="/" target="_blank "> <u> 免费注册stcpd.com账户&gt;&gt; </u> </a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- footer end --> 
+</div>
+</body>
+</html>

@@ -1,0 +1,1329 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<base href=".">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta property="qc:admins" content="1540270707607636">
+<link href="./css/common.css" type="text/css" rel="stylesheet">
+<link href="./css/lottery.css" type="text/css" rel="stylesheet">
+<link href="./css/caizhan.css" type="text/css" rel="stylesheet">
+<link href="./css/style.css" type="text/css" rel="stylesheet">
+<link href="./css/followNew.css" type="text/css" rel="stylesheet">
+<link href="./css/paging.css" type="text/css" rel="stylesheet">
+<title>彩店介绍 | 实体游戏店 | stcpd.com彩店  | 福彩店</title>
+</head>
+<style>
+.nav a {
+	color: #fff;
+}
+</style>
+<body class="sports" style="background:#f1f1f1 none repeat scroll 0 0;">
+<!-- header start -->
+
+<input type="hidden" id="flag" name="flag" value="0">
+<input type="hidden" id="isLogin" name="isLogin" value="0">
+<div class="header cf" style="background: url(img/headBg.jpg) center center no-repeat;">
+  <div class="welBg">
+    <p class="wel bg-w"> <span class="help f-r"> 
+      <!-- <a class="aBg" href="http://mobile.stcpd.com" target="_blank">手机客户端</a> --> 
+      <a class="aBg" href="#">帮助中心</a> <span class="p-r_5">|</span> 
+      <!--  <a class="aBg" href="/feedback.jhtml">意见反馈</a> --> 
+      <a href="#" class="aBg">意见反馈</a> <span class="p-r_5">|</span> 
+      <!-- <a onclick="addPanel();">收藏本站</a> --> 
+      <a href="#">收藏本站</a> </span>
+      <label id="header"> <span>您好，<span>实体游戏店</span>欢迎您！</span><a class="aBg blue" href="#" class="blue">免费注册</a> </label>
+    </p>
+  </div>
+  <div class="EmInfo" id="urgentnotic" style="display:none">
+    <div class="EmInfoMain">
+      <input type="hidden" id="urgentid" value="">
+      <img src="./img/EmInfoImg.png" alt=""> <span class="f-l fb">店主公告：</span> <span class="f-l" id="scrollNews">
+      <marquee id="marqueeNews" direction="left" behavior="scroll" scrollamount="3" onMouseOver="this.stop()" onMouseOut="this.start()">
+      欢迎光临豪门连锁体彩店！中奖已成习惯！充值不懂得联系店主！
+      </marquee>
+      </span> <a href="#" class="jjggClose">关闭</a>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="logoCont">
+    <div class="logo cf">
+      <h1> <a name="toSports" class="logoBox" style="font-weight:bold;font-family:&#39;微软雅黑&#39;;font-size:32px;" href="#" target="_self">实体游戏店<cite>www.stcpd.com</cite></a> <span class="shopLink"> </span> </h1>
+      <div class="logo_r"> 
+        <!--<img src="../../images/common/pic.png" alt="" style="float:left;" />-->
+        <div class="qqlink" style="float:right;"> <a id="qqlink" target="_blank" href="#"><img src="./img/qq.jpg" title="85250396"></a> </div>
+        <div class="clear"></div>
+      </div>
+      <!-- <img src="../../images/common/rmb.png" alt="" class="rmb"  /> --> 
+    </div>
+  </div>
+  <div class="navBg cf">
+    <div class="bg-w cf">
+      <h2 class="typeBtn" id="typeBtn"> 选择彩种 </h2>
+      <ul class="nav">
+        <li> <a name="toSports" href="index.html"> 首页 </a> </li>
+        <li style="position: relative;"> <a class="on" href="02.html"> 跟单大厅 </a> <span id="hotGif"> </span> </li>
+        <!--<li><a  href="/lottery/index.jhtml">购彩大厅</a></li>-->
+        <li id="hmdtIndexId"> <a href="03.html"> 合买大厅 </a> </li>
+        <li> <a href="04.html"> 游戏开奖 </a> </li>
+        <li> <a href="05.html" target="_blank" name="thirdparty"> 走势图 </a> </li>
+        <li> <a href="06.html"> 即时比分 </a> </li>
+        <li style="display: none;"> <a href="#" target="_blank"" name="thirdparty"> 网站推荐 </a> </li>
+        <li> <a href="07.html"> 本店推荐 </a> </li>
+        <li> <a href="01.html"> 彩站介绍 </a> </li>
+      </ul>
+      <!--如果不是首页-->
+      
+      <ul class="typeBox typeBox_sele" id="nav_option" style="display:none;">
+        <!--福彩--> 
+        
+        <!--体彩-->
+        
+        <li>
+          <div class="navImgCont"> <img src="img/ico_jc.png" alt="" /> 竞足 </div>
+          <p> <a href="#"><strong>单关投注</strong></a> <a href="#">胜平负</a> <a href="#">比分</a> <a href="#">让球胜平负</a> <a href="#">总进球</a> <a href="#">半全场</a> <a href="#">混合过关</a> <a href="#">2选1</a> 
+            <!-- 										<a href="lottery/jczq/EuropeanCup.jhtml"><strong>冠亚军</strong></a><img src="/images/caizhan/new.png" width="20" height="20"/></a>
+ --> <!--<a href="lottery/jczq/WorldCup.jhtml">冠亚军</a><img src="img/new.png" alt="" />--> 
+          </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_jl.png" alt="" /> 竞篮 </div>
+          <p> <a href="#">单关投注</a> <a href="#">让分胜负</a> <a href="#">胜负</a> <a href="#">胜分差</a> <a href="#">大小分</a> <a href="#">混合过关</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_sfc.png" alt="" /> 足彩 </div>
+          <p> <a href="#">胜负彩</a> <a href="#">任选九</a> <a href="#">进球彩</a> <a href="#">半全场</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_dlt.png" alt="" /> 体彩 </div>
+          <p> <a href="#">大乐透</a> <a href="#">排列三</a> <a href="#">排列五</a> <a href="#">七星彩</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_11x5.png" alt="" /> 高频 </div>
+          <p> <a href="#">新疆11选5</a> </p>
+        </li>
+      </ul>
+      <script type="text/javascript">
+					window.onload = function(){
+						var n = document.getElementById("nav_option");
+						var o = document.getElementById("typeBtn");
+						if(!n){
+							o.className = "";
+						}
+					}
+					function g(id){ return document.getElementById(id);}
+					(function(){
+						var nav_option = g("nav_option");
+						var typeBtn = g("typeBtn");
+							typeBtn.onclick = onTypeBtnClick;
+							
+						function onTypeBtnClick(e){
+							if(!nav_option){
+								typeBtn.className = "";
+							}else{
+								if(typeBtn.className == "typeBtn"){
+									typeBtn.className = "typeBtn typeBtnOn";
+									nav_option.style.display = "";
+								}else{
+									typeBtn.className = "typeBtn";
+									nav_option.style.display = "none";
+								}
+							}
+						}
+					})();
+				        function AutoScroll(obj) {
+				            $(obj).find("ul:first").animate({
+				                marginTop: "-20px"
+				            }, 500, function () {
+				                $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+				            });
+				        }
+				        $(document).ready(function () {
+							$("a[href^='']").each(function(){
+								$(this).attr("name","thirdparty").attr("domain",$(this).attr("href")).attr("href","javascript:;");
+							});
+				        	$("a[name='thirdparty']").click(function(){
+				        		$(this).attr("href","?userName=&amount=&shopId=45442&domain=" + $(this).attr("domain"));
+				        		var $this = $(this);
+				        		setTimeout(function(){
+				        			$this.attr("href","javascript:;");
+				        			},100);
+				        	});
+				        	setInterval('AutoScroll("#scrollNews")', 5000);
+						$(".EmInfo a.jjggClose").click(function(){
+							$.ajax({
+							    type: "post",
+							    url: "/art/gbgg.do",
+							    data: "",
+							    async: false,
+							    dataType: "text",
+							    error: function(xMLHttpRequest, textStatus, errorThrown){},
+							    success: function (){
+							    	$("#urgentnotic").attr({style:"display:none"});
+							    }
+							});
+						});
+					});
+				</script> 
+    </div>
+  </div>
+</div>
+
+<!-- header end --> 
+
+<!--main start-->
+<div class="bg-w"> 
+  <!-- 霸气红人榜 -->
+  <div class="hot87">
+    <h3 class="hotTitle"> <img src="./img/hot87.fw.png"> </h3>
+    <a href="#" id="more" class="more">更多</a>
+    <ul class="rankList" id="hrRankingList">
+      <li class="rankDetail"><img class="avatar" src="./img/m_1798042_1518162480902.icon">
+        <div class="detail">
+          <p><span class="medal one"></span><span class="rankNum">排行1</span></p>
+          <p class="username" title="杰克船长" data-userid="2243">杰克船长</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1920003_1520902044838.icon">
+        <div class="detail">
+          <p><span class="medal two"></span><span class="rankNum">排行2</span></p>
+          <p class="username" title="谭敏叡" data-userid="25816">谭敏叡</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1913786_1520731678228.icon">
+        <div class="detail">
+          <p><span class="medal three"></span><span class="rankNum">排行3</span></p>
+          <p class="username" title="马会内部推单团队" data-userid="24836">马会内部推单团队</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1919127_1520822181155.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行4</span></p>
+          <p class="username" title="小北竞彩" data-userid="25125">小北竞彩</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1817085_1520179960199.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行5</span></p>
+          <p class="username" title="竞彩红人" data-userid="22677">竞彩红人</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1679153_1496638130334.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行6</span></p>
+          <p class="username" title="统帅司马懿" data-userid="10259">统帅司马懿</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1827950_1519626473560.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行7</span></p>
+          <p class="username" title="专杀庄狗" data-userid="16232">专杀庄狗</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1909574_1520750704900.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行8</span></p>
+          <p class="username" title="金手指点石成金" data-userid="23005">金手指点石成金</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1915256_1520299854277.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行9</span></p>
+          <p class="username" title="骑白马带刀" data-userid="21977">骑白马带刀</p>
+        </div>
+      </li>
+      <li class="rankDetail"><img class="avatar" src="./img/m_1679484_1519483083214.icon">
+        <div class="detail">
+          <p><span class="medal"></span><span class="rankNum">排行10</span></p>
+          <p class="username" title="红魔老师" data-userid="5799">红魔老师</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- 跟单列表 -->
+  <div class="followList">
+    <div class="title clear clear_ie">
+      <ul class="tabList clear clear_ie" id="followListTabs">
+        <li><a class="tab active" href="">人气</a></li>
+        <li><a class="tab" href="#">命中率</a></li>
+        <li><a class="tab" href="#">关注</a></li>
+      </ul>
+      <a class="howToFollow" href="#" target="_blank">不会跟单怎么办？</a> </div>
+    <table class="followListDetail" border="0" align="center" cellspacing="0">
+      <thead>
+        <tr class="tTitle">
+          <th>序号</th>
+          <th style="width: 210px;">发单人</th>
+          <th> <select id="lotterys">
+              <option value="0">全部彩种</option>
+              <option value="227">竞彩足球</option>
+              <option value="228">竞彩篮球</option>
+            </select>
+          </th>
+          <th style="width: 60px;">玩法</th>
+          <th style="width: 60px;">宣言</th>
+          <th>自购金额</th>
+          <th>起跟金额</th>
+          <th>跟单人数</th>
+          <th>截止时间</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <style>
+      	.clear_ie{ height:40px;}
+      </style>
+      <tbody id="followList">
+        <tr>
+          <td>1</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1339846_1518194849839.icon" data-userid="2774">
+            <div class="userInfo">
+              <p class="username" data-userid="2774">沉沦必中</p>
+              <span class="shooting">投2中2</span><span class="hotContinue"><span class="hotNum">2</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1339846_1518194849839.icon"></div>
+                  <div class="ljs">投2中2</div>
+                </div>
+                <p class="detailUsername" data-userid="2774">沉沦必中</p>
+                <p>7日奖金：<span class="redFont">29600</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">2</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">7</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">19</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">9</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">125880</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="2774" data-username="沉沦必中">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>1串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">多稳就不细说了，跟着上车就行，一起连红收米</p>
+              </div>
+            </div></td>
+          <td>8000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>1936人</td>
+          <td>03-14 23:55</td>
+          <td betid="103088204"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1907499_1518324517279.icon" data-userid="12429">
+            <div class="userInfo">
+              <p class="username" data-userid="12429">海曲竞彩</p>
+              <span class="shooting">投10中4</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1907499_1518324517279.icon"></div>
+                  <div class="ljs">投10中4</div>
+                </div>
+                <p class="detailUsername" data-userid="12429">海曲竞彩</p>
+                <p>7日奖金：<span class="redFont">162500</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">1</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">5</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">23</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">13</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">367740</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="12429" data-username="海曲竞彩">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">专业专注二十年，得大于失，放心跟单加关注玩足球收米，加倍投注是你正确的选择，</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>1507人</td>
+          <td>03-13 23:55</td>
+          <td betid="103156651"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1899746_1520266032174.icon" data-userid="21752">
+            <div class="userInfo">
+              <p class="username" data-userid="21752">稳住能赢</p>
+              <span class="shooting">投10中4</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1899746_1520266032174.icon"></div>
+                  <div class="ljs">投10中4</div>
+                </div>
+                <p class="detailUsername" data-userid="21752">稳住能赢</p>
+                <p>7日奖金：<span class="redFont">182902.84</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">1</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">11</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">4</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">182902.84</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="21752" data-username="稳住能赢">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">两场欧冠，研究足足三小时，9成把握命中，建议想回血的重注，求稳的均注！已重注5W，极其看好，机不可失，失不再来！别的不多说了我先去做头发！</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">4元</td>
+          <td>1438人</td>
+          <td>03-13 23:55</td>
+          <td betid="103098182"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1788475_1520500282442.icon" data-userid="23671">
+            <div class="userInfo">
+              <p class="username" data-userid="23671">闷声发大财</p>
+              <span class="shooting">投5中3</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1788475_1520500282442.icon"></div>
+                  <div class="ljs">投5中3</div>
+                </div>
+                <p class="detailUsername" data-userid="23671">闷声发大财</p>
+                <p>7日奖金：<span class="redFont">39789.64</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">3</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">5</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">3</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">39789.64</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="23671" data-username="闷声发大财">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">稳稳妥妥收米</p>
+              </div>
+            </div></td>
+          <td>8888元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>932人</td>
+          <td>03-13 23:55</td>
+          <td betid="103106968"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1916616_1520360006070.icon" data-userid="22667">
+            <div class="userInfo">
+              <p class="username" data-userid="22667">终极杀手</p>
+              <span class="shooting">投6中3</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1916616_1520360006070.icon"></div>
+                  <div class="ljs">投6中3</div>
+                </div>
+                <p class="detailUsername" data-userid="22667">终极杀手</p>
+                <p>7日奖金：<span class="redFont">129500</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">2</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">6</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">3</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">129500</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="22667" data-username="终极杀手">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">兄弟们两连黑了，缓一缓，此单只下了5万，等我重注的时候再回血，放心，不赢走百万我是不会消失的。群里的兄弟不用顶太多了，两连黑不好看。</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>826人</td>
+          <td>03-13 23:55</td>
+          <td betid="103176204"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1908304_1520161578203.icon" data-userid="20687">
+            <div class="userInfo">
+              <p class="username" data-userid="20687">桃花岛主黄药师</p>
+              <span class="shooting">投8中5</span><span class="hotContinue"><span class="hotNum">3</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1908304_1520161578203.icon"></div>
+                  <div class="ljs">投8中5</div>
+                </div>
+                <p class="detailUsername" data-userid="20687">桃花岛主黄药师</p>
+                <p>7日奖金：<span class="redFont">188200</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">3</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">4</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">11</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">8</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">297700</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="20687" data-username="桃花岛主黄药师">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">每日一单，静心跟单，戒急戒贪，长期关注，必有收益，SP2+   百元起步，跟住收米，可重注！！！ </p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>820人</td>
+          <td>03-13 23:55</td>
+          <td betid="103170184"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1827950_1519626473560.icon" data-userid="16232">
+            <div class="userInfo">
+              <p class="username" data-userid="16232">专杀庄狗</p>
+              <span class="shooting">投4中4</span><span class="hotContinue"><span class="hotNum">4</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1827950_1519626473560.icon"></div>
+                  <div class="ljs">投4中4</div>
+                </div>
+                <p class="detailUsername" data-userid="16232">专杀庄狗</p>
+                <p>7日奖金：<span class="redFont">51530</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">4</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">9</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">9</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">9</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">89265.62</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="16232" data-username="专杀庄狗">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>1串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">稳单，必红，专业杀庄30年，感谢支持</p>
+              </div>
+            </div></td>
+          <td>8000元</td>
+          <td style="color: #CC0000;">4元</td>
+          <td>463人</td>
+          <td>03-14 23:55</td>
+          <td betid="103087821"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1719592_1518276526171.icon" data-userid="1403">
+            <div class="userInfo">
+              <p class="username" data-userid="1403">解宝解珍二兄弟</p>
+              <span class="shooting">投3中2</span><span class="hotContinue"><span class="hotNum">2</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1719592_1518276526171.icon"></div>
+                  <div class="ljs">投3中2</div>
+                </div>
+                <p class="detailUsername" data-userid="1403">解宝解珍二兄弟</p>
+                <p>7日奖金：<span class="redFont">67800</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">2</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">4</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">16</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">11</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">370900</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="1403" data-username="解宝解珍二兄弟">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>1串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">解宝计划第十四期第一单！近期18红13！冲刺3连红！</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>301人</td>
+          <td>03-13 23:55</td>
+          <td betid="103092784"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1911647_1520796518490.icon" data-userid="19240">
+            <div class="userInfo">
+              <p class="username" data-userid="19240">巴菲特玩竞彩</p>
+              <span class="shooting">投3中1</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1911647_1520796518490.icon"></div>
+                  <div class="ljs">投3中1</div>
+                </div>
+                <p class="detailUsername" data-userid="19240">巴菲特玩竞彩</p>
+                <p>7日奖金：<span class="redFont">26560</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">1</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">3</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">1</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">26560</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="19240" data-username="巴菲特玩竞彩">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">不用怕，不会让你们失望的，倍投4万，惊喜在后面，跟着我的计划走。</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>192人</td>
+          <td>03-13 23:55</td>
+          <td betid="103176369"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1820649_1519264985030.icon" data-userid="10476">
+            <div class="userInfo">
+              <p class="username" data-userid="10476">圆梦竞彩</p>
+              <span class="shooting">投10中7</span><span class="hotContinue"><span class="hotNum">2</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1820649_1519264985030.icon"></div>
+                  <div class="ljs">投10中7</div>
+                </div>
+                <p class="detailUsername" data-userid="10476">圆梦竞彩</p>
+                <p>7日奖金：<span class="redFont">261700</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">2</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">4</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">23</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">14</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">311053.41</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="10476" data-username="圆梦竞彩">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">状态正佳，稳单已重注，不多说，百元起步，按计划走，早跟单防降水，跟上坐等收米！！！！！！</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>128人</td>
+          <td>03-13 23:55</td>
+          <td betid="103176731"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1911662_1520840542601.icon" data-userid="23632">
+            <div class="userInfo">
+              <p class="username" data-userid="23632">红日高升</p>
+              <span class="shooting">投5中1</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1911662_1520840542601.icon"></div>
+                  <div class="ljs">投5中1</div>
+                </div>
+                <p class="detailUsername" data-userid="23632">红日高升</p>
+                <p>7日奖金：<span class="redFont">47595.24</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">1</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">5</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">1</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">47595.24</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="23632" data-username="红日高升">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">昨天差一点点哦，最后被绝杀了平局，今天继续12倍收益哦，恭喜发财</p>
+              </div>
+            </div></td>
+          <td>8888元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>102人</td>
+          <td>03-13 23:55</td>
+          <td betid="103176475"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1889585_1520049658351.icon" data-userid="1588">
+            <div class="userInfo">
+              <p class="username" data-userid="1588">战狼红单</p>
+              <span class="shooting">投3中2</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1889585_1520049658351.icon"></div>
+                  <div class="ljs">投3中2</div>
+                </div>
+                <p class="detailUsername" data-userid="1588">战狼红单</p>
+                <p>7日奖金：<span class="redFont">93600</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">1</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">3</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">15</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">7</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">233895</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="1588" data-username="战狼红单">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">一直被绝杀的我  昨天居然绝杀了庄狗 运气来了 加上实力的分析 我相信今天连红是没问题的  这单个人认为非常稳  兄弟们不要担心 跟上就是了</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>81人</td>
+          <td>03-13 23:55</td>
+          <td betid="103177561"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1679484_1519483083214.icon" data-userid="5799">
+            <div class="userInfo">
+              <p class="username" data-userid="5799">红魔老师</p>
+              <span class="shooting">投5中4</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1679484_1519483083214.icon"></div>
+                  <div class="ljs">投5中4</div>
+                </div>
+                <p class="detailUsername" data-userid="5799">红魔老师</p>
+                <p>7日奖金：<span class="redFont">161500</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">5</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">18</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">13</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">475800</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="5799" data-username="红魔老师">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">跟单有惊喜，盈利狂收米！别犹豫，快来跟我一单，一起中大奖！</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>69人</td>
+          <td>03-13 23:55</td>
+          <td betid="103142650"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1607198_1518318436695.icon" data-userid="7090">
+            <div class="userInfo">
+              <p class="username" data-userid="7090">红单君子</p>
+              <span class="shooting">投12中5</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1607198_1518318436695.icon"></div>
+                  <div class="ljs">投12中5</div>
+                </div>
+                <p class="detailUsername" data-userid="7090">红单君子</p>
+                <p>7日奖金：<span class="redFont">905.96</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">2</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">27</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">9</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">1784.84</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="7090" data-username="红单君子">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩篮球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">《加关注，跟红单》此单为《穿越单》，目前发了2单中2单，多为提前一天看好的1场，和当天最看好的1场组合，计划跟单50~80~130~200…</p>
+              </div>
+            </div></td>
+          <td>50元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>46人</td>
+          <td>03-13 10:25</td>
+          <td betid="103160525"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1339846_1518194849839.icon" data-userid="2774">
+            <div class="userInfo">
+              <p class="username" data-userid="2774">沉沦必中</p>
+              <span class="shooting">投2中2</span><span class="hotContinue"><span class="hotNum">2</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1339846_1518194849839.icon"></div>
+                  <div class="ljs">投2中2</div>
+                </div>
+                <p class="detailUsername" data-userid="2774">沉沦必中</p>
+                <p>7日奖金：<span class="redFont">29600</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">2</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">7</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">19</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">9</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">125880</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="2774" data-username="沉沦必中">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>1串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">跟单有惊喜，盈利狂收米！别犹豫，快来跟我一单，一起中大奖！</p>
+              </div>
+            </div></td>
+          <td>8000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>26人</td>
+          <td>03-14 19:55</td>
+          <td betid="103090636"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1679153_1496638130334.icon" data-userid="10259">
+            <div class="userInfo">
+              <p class="username" data-userid="10259">统帅司马懿</p>
+              <span class="shooting">投4中4</span><span class="hotContinue"><span class="hotNum">4</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1679153_1496638130334.icon"></div>
+                  <div class="ljs">投4中4</div>
+                </div>
+                <p class="detailUsername" data-userid="10259">统帅司马懿</p>
+                <p>7日奖金：<span class="redFont">132200</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">4</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">4</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">15</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">8</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">264000</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="10259" data-username="统帅司马懿">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>1串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">跟单有惊喜，盈利狂收米！别犹豫，快来跟我一单，一起中大奖！</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>9人</td>
+          <td>03-13 23:55</td>
+          <td betid="103144415"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1909360_1519275799067.icon" data-userid="12287">
+            <div class="userInfo">
+              <p class="username" data-userid="12287">樊嘉玉</p>
+              <span class="shooting">投11中7</span><span class="hotContinue"><span class="hotNum">3</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1909360_1519275799067.icon"></div>
+                  <div class="ljs">投11中7</div>
+                </div>
+                <p class="detailUsername" data-userid="12287">樊嘉玉</p>
+                <p>7日奖金：<span class="redFont">240380</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">3</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">3</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">24</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">16</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">358233.6</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="12287" data-username="樊嘉玉">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">加关注不迷路，默默地跟单默默地收米，就是这么任性的推单，不刷单，绝对童叟无欺</p>
+              </div>
+            </div></td>
+          <td>20000元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>6人</td>
+          <td>03-13 23:55</td>
+          <td betid="103157199"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1770568_1504531966014.icon" data-userid="20369">
+            <div class="userInfo">
+              <p class="username" data-userid="20369">鬼谷子出山</p>
+              <span class="shooting">投6中4</span><span class="hotContinue"><span class="hotNum">4</span>连红</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1770568_1504531966014.icon"></div>
+                  <div class="ljs">投6中4</div>
+                </div>
+                <p class="detailUsername" data-userid="20369">鬼谷子出山</p>
+                <p>7日奖金：<span class="redFont">81.55</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">4</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">4</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">9</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">5</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">96.15</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="20369" data-username="鬼谷子出山">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>1串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">跟单有惊喜，盈利狂收米！别犹豫，快来跟我一单，一起中大奖！</p>
+              </div>
+            </div></td>
+          <td>10元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>5人</td>
+          <td>03-13 23:55</td>
+          <td betid="103125703"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1839202_1520563198880.icon" data-userid="21720">
+            <div class="userInfo">
+              <p class="username" data-userid="21720">风顺丰顺</p>
+              <span class="shooting">投11中4</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1839202_1520563198880.icon"></div>
+                  <div class="ljs">投11中4</div>
+                </div>
+                <p class="detailUsername" data-userid="21720">风顺丰顺</p>
+                <p>7日奖金：<span class="redFont">2346.56</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">2</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">11</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">4</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">2346.56</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="21720" data-username="风顺丰顺">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>3串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">跟单有惊喜，盈利狂收米！别犹豫，快来跟我一单，一起中大奖！</p>
+              </div>
+            </div></td>
+          <td>218元</td>
+          <td style="color: #CC0000;">36元</td>
+          <td>5人</td>
+          <td>03-13 23:55</td>
+          <td betid="103182488"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td class="clear clear_ie" style="position:relative;"><img class="avatar" src="./img/m_1904829_1520823511465.icon" data-userid="13859">
+            <div class="userInfo">
+              <p class="username" data-userid="13859">混沌骑士</p>
+              <span class="shooting">投3中2</span></div>
+            <div class="userDetail hide"><img class="leftArrow" src="./img/leftArrow.png">
+              <div class="detail">
+                <div class="detailAvatar">
+                  <div class="avatar1"><img src="./img/m_1904829_1520823511465.icon"></div>
+                  <div class="ljs">投3中2</div>
+                </div>
+                <p class="detailUsername" data-userid="13859">混沌骑士</p>
+                <p>7日奖金：<span class="redFont">64.28</span>元</p>
+                <div class="lhDetail"><span class="lianhong"><span class="lhTitle">7日连红</span><span class="lhNum">0</span></span><span class="lianhong"><span class="lhTitle">历史连红</span><span class="lhNum">2</span></span></div>
+                <img src="./img/thirtyDaysTitle.fw.png" class="userDetailTitle">
+                <div class="thirtyDaysDetail clear clear_ie">
+                  <div class="tdd">
+                    <div class="tddNum">6</div>
+                    <div class="tddTitle">投</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">2</div>
+                    <div class="tddTitle">中</div>
+                  </div>
+                  <div class="tdd">
+                    <div class="tddNum">64.28</div>
+                    <div class="tddTitle">奖金</div>
+                  </div>
+                </div>
+                <div class="attentionBtn" data-userid="13859" data-username="混沌骑士">+关注</div>
+              </div>
+            </div></td>
+          <td>竞彩足球</td>
+          <td>2串1</td>
+          <td><div class="announceTd"><span class="announce"></span>
+              <div class="announceDetail hide"><img src="./img/downArrow.png" class="downArrow">
+                <p class="annouceText">对不起！昨晚485全军覆没，本来打算买瑞典杯那场主队，后期水位变化太厉害远了荷乙，没想到是平局，对不起大家。</p>
+              </div>
+            </div></td>
+          <td>100元</td>
+          <td style="color: #CC0000;">2元</td>
+          <td>5人</td>
+          <td>03-13 23:55</td>
+          <td betid="103176997"><a href="#" class="copyBtn">跟一单</a><a href="#" class="jumpTo"></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="fenye">
+    <div id="pageToolbar">
+      <div id="Paging_04261100382274958" class="ui-paging-container">
+        <ul>
+          <li class="js-page-total" style="background: none;">共85条，共5页</li>
+          <li class="js-page-first js-page-action ui-pager ui-pager-disabled">首页</li>
+          <li class="js-page-prev js-page-action ui-pager ui-pager-disabled">上一页</li>
+          <li data-page="1" class="ui-pager focus">1</li>
+          <li data-page="2" class="ui-pager">2</li>
+          <li data-page="3" class="ui-pager">3</li>
+          <li data-page="4" class="ui-pager">4</li>
+          <li data-page="5" class="ui-pager">5</li>
+          <li class="js-page-next js-page-action ui-pager">下一页</li>
+          <li class="js-page-last js-page-action ui-pager">末页</li>
+          <li class="ui-paging-toolbar" style="background: none;">
+            <select class="ui-select-pagesize">
+              <option value="20">20条/页</option>
+            </select>
+            &nbsp;第
+            <input type="text" class="ui-paging-count">
+            页&nbsp;<a href="#">跳转</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="mask" style="display: none;"> <img src="./img/loading.gif"> </div>
+  
+  <!-- main end -->
+  <div class="clear"></div>
+  <!--footer start-->
+  
+  <div class="footer" style="background: #f1f1f1;margin-top: 10px">
+    <div class="links bg-w">
+      <div class="linkBottom"> <img src="./img/bottom.png" alt=""> </div>
+      <ul>
+        <li class="one"><img src="./img/lc.png" alt=""><b>购彩流程</b></li>
+        <li><a href="#">注册身份信息</a></li>
+        <li><a href="#">投注和付款</a></li>
+        <li><a href="#">查看订单</a></li>
+        <li><a href="#">领奖与兑奖</a></li>
+      </ul>
+      <ul>
+        <li style="padding-top:4px;margin-bottom:-3px;"><img src="./img/tk.png" alt=""><b>充值提款</b></li>
+        <li><a href="#">如何充值</a></li>
+        <li><a href="#">如何提款</a></li>
+        <li><a href="#">提款注意事项</a></li>
+        <li><a href="#">更改提款账户</a></li>
+      </ul>
+      <ul style="background:none;">
+        <li class="ml60 one" style="padding-top:3px;"><img src="./img/zc.png" alt=""><b>帮助与支持</b></li>
+        <li><a href="#">帮助中心</a></li>
+        <li><a href="#">常见问题</a></li>
+        <li><a href="#">意见及建议</a></li>
+        <li><a href="#">大奖领取流程</a></li>
+      </ul>
+      <!--
+		  <ul class="phone">
+		    <li class="first">投注站电话</li>
+			<li><b class="c-ff7200" id="shopTel"></b></li>
+		  </ul>-->
+      <div class="clear"></div>
+      <div class="footerBg"></div>
+    </div>
+    <p class="copy" style="background: #FFF"> <a href="#">power by stcpd.com</a> <a href="#" logo_type="realname" logo_size="83x30" target="_blank"> <img width="83" height="30" style="border: none;" alt="安全联盟认证" src="./img/sm_83x30.png"> </a> <br>
+      备案/许可证编号为：<a href="#" target="_blank">沪ICP备14049982号</a> |沪公网安备号：11010802017926|客服热线： <b>4000879187</b> <br>
+    </p>
+  </div>
+  <div style="height:0px;overflow:hidden;"> <a href="#" target="_blank"><img border="0" src="./img/21.gif" width="20" height="20"></a> </div>
+  <div id="tsBox" class="ui_alert ui_alert2" style="display:none;">
+    <h3>温馨提示</h3>
+    <div class="ui_alert_main">
+      <div class="ui_alert_txt" id="tsBoxContent">您好，请确定您要保存的信息！</div>
+      <div class="ui_alert_btns"> <a href="#" class="a_sure" id="submitBtnEnd">确定</a> <a href="#" class="a_sure a_esc" id="closeBtn4">取消</a> </div>
+    </div>
+    <a href="#" class="close" id="closeBtn3">×</a> </div>
+  <div id="tsBoxJc" class="ui_alert ui_alert2" style="display:none;">
+    <h3>温馨提示</h3>
+    <div class="ui_alert_main">
+      <div class="ui_alert_txt" id="tsBoxContentJc">您好，请确定您要保存的信息！</div>
+      <div class="ui_alert_btns"> <a href="#" class="a_sure" id="submitBtnEndJc">确定</a> <a href="#" class="a_sure a_esc" id="closeBtn6">取消</a> </div>
+    </div>
+    <a href="#" class="close" id="closeBtn5">×</a> </div>
+  <div id="hemaiBox" class="ui_alert ui_alert2" style="display:none;">
+    <h3>温馨提示</h3>
+    <div>
+      <div id="hemaiBoxContent"> </div>
+      <div class="ui_alert_btns"> <a href="#" class="a_sure" id="hemaiconfirm">确定</a> <a href="#" class="a_sure a_esc" id="hemaiCancel">取消</a> </div>
+    </div>
+    <a href="#" class="close" id="hemaiCloseBox">×</a> </div>
+  <div id="loginBox" class="dlBox" style="display:none;">
+    <h3 class="dlBox_red_bg"> <span><a id="closeLoginBtn" href="#"><img src="./img/loginclose.gif" alt="关闭"></a></span>彩民登录 </h3>
+    <div class="dlBox_c">
+      <div id="loginError" style="margin-top:-20px;height:20px;color:red;"></div>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td width="60" height="40">用户名：</td>
+            <td><input type="text" name="username" id="username" class="dlBox_wbk"></td>
+          </tr>
+          <tr>
+            <td height="40">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+            <td><input type="password" name="password" id="password" class="dlBox_wbk"></td>
+          </tr>
+          <tr>
+            <td height="35">&nbsp;</td>
+            <td class="dlBox_f12"><a href="#"><img id="loginSubmit" src="./img/loginbtn.png" alt="登录" width="88" height="28" align="absmiddle"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank"><u>忘记密码？</u></a></td>
+          </tr>
+          <tr>
+            <td height="35">&nbsp;</td>
+            <td class="dlBox_f12"><a href="#" target="_blank"><u>免费注册stcpd.com账户&gt;&gt;</u></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div id="followBox" class="ui_alert ui_alert2" style="text-align: left;display:none;">
+    <h3 id="followBoxTitle">温馨提示</h3>
+    <div class="ui_alert_main">
+      <div class="ui_alert_txt" id="followBoxContent"></div>
+      <div class="ui_alert_btns"> <a href="#" class="a_sure" id="submitFollowBtnEnd"></a> <a href="#" class="a_sure a_esc" id="closeFollowBtn4"></a> </div>
+    </div>
+    <a href="#" class="close" id="closeBtn3follow">×</a> </div>
+  <!-- footer end --> 
+  
+</div>
+</body>
+</html>

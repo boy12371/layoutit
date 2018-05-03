@@ -1,0 +1,714 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta property="qc:admins" content="1540270707607636">
+  <link href="css/common.css" type="text/css" rel="stylesheet">
+  <link href="css/lottery.css" type="text/css" rel="stylesheet">
+  <link href="css/caizhan.css" type="text/css" rel="stylesheet">
+  <link href="css/kaijiang.css" type="text/css" rel="stylesheet">
+  <link href="css/WdatePicker.css" rel="stylesheet" type="text/css">
+  <title>合买大厅 | 实体游戏店 | stcpd.com彩店 | 福彩店</title>
+</head>
+
+<body class="sports">
+
+  <!-- header start -->
+
+  <div class="header cf">
+
+    <div class="logoCont" style="background: url(img/headBg.jpg) center center no-repeat;">
+      <div class="logo cf">
+        <h1>
+          <a name="toSports" class="logoBox" style="font-weight:bold;font-family:'微软雅黑';font-size:32px;" href="#" target="_self">实体游戏店
+            <cite>www.stcpd.com</cite>
+          </a>
+          <span class="shopLink"> </span>
+        </h1>
+        <div class="logo_r">
+          <!--<img src="../../images/common/pic.png" alt="" style="float:left;" />-->
+          <div class="qqlink" style="float:right;">
+            <a href="#" id="qqlink">
+              <img src="img/qq.jpg" alt="在线QQ">
+            </a>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- <img src="../../images/common/rmb.png" alt="" class="rmb"  /> -->
+      </div>
+    </div>
+    <div class="navBg cf">
+      <div class="bg-w cf">
+        <h2 class="typeBtn" id="typeBtn"> 选择彩种 </h2>
+        <ul class="nav">
+          <li>
+            <a name="toSports" href="index.html"> 首页 </a>
+          </li>
+          <li style="position: relative;">
+            <a href="02.html"> 跟单大厅 </a>
+            <span id="hotGif"> </span>
+          </li>
+          <!--<li><a  href="/lottery/index.jhtml">购彩大厅</a></li>-->
+          <li id="hmdtIndexId">
+            <a class="on" href="03.html"> 合买大厅 </a>
+          </li>
+          <li>
+            <a href="04.html"> 游戏开奖 </a>
+          </li>
+          <li>
+            <a href="05.html" target="_blank" name="thirdparty"> 走势图 </a>
+          </li>
+          <li>
+            <a href="06.html"> 即时比分 </a>
+          </li>
+          <li style="display: none;">
+            <a href="#" target="_blank" " name="thirdparty "> 网站推荐 </a> </li>
+        <li> <a href="07.html "> 本店推荐 </a> </li>
+        <li> <a href="01.html "> 彩站介绍 </a> </li>
+      </ul>
+       <!--如果不是首页-->
+      
+      <ul class="typeBox typeBox_sele " id="nav_option " style="display:none; ">
+        <!--福彩--> 
+        
+        <!--体彩-->
+        
+        <li>
+          <div class="navImgCont "> <img src="img/ico_jc.png " alt=" " /> 竞足 </div>
+          <p> <a href="# "><strong>单关投注</strong></a> <a href="# ">胜平负</a> <a href="# ">比分</a> <a href="#
+              ">让球胜平负</a> <a href="# ">总进球</a> <a href="# ">半全场</a> <a href="# ">混合过关</a> <a href="# ">2选1</a> 
+            <!-- 										<a href="lottery/jczq/EuropeanCup.jhtml "><strong>冠亚军</strong></a><img src="/images/caizhan/new.png
+              " width="20 " height="20 "/></a>
+ --> <!--<a href="lottery/jczq/WorldCup.jhtml ">冠亚军</a><img src="img/new.png " alt=" " />--> 
+          </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="img/ico_jl.png " alt=" " /> 竞篮 </div>
+          <p> <a href="# ">单关投注</a> <a href="# ">让分胜负</a> <a href="# ">胜负</a> <a href="# ">胜分差</a> <a href="#
+              ">大小分</a> <a href="# ">混合过关</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="img/ico_sfc.png " alt=" " /> 足彩 </div>
+          <p> <a href="# ">胜负彩</a> <a href="# ">任选九</a> <a href="# ">进球彩</a> <a href="# ">半全场</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="img/ico_dlt.png " alt=" " /> 体彩 </div>
+          <p> <a href="# ">大乐透</a> <a href="# ">排列三</a> <a href="# ">排列五</a> <a href="# ">七星彩</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont "> <img src="img/ico_11x5.png " alt=" " /> 高频 </div>
+          <p> <a href="# ">新疆11选5</a> </p>
+        </li>
+      </ul>
+      <script type="text/javascript ">
+					window.onload = function(){
+						var n = document.getElementById("nav_option ");
+						var o = document.getElementById("typeBtn ");
+						if(!n){
+							o.className = " ";
+						}
+					}
+					function g(id){ return document.getElementById(id);}
+					(function(){
+						var nav_option = g("nav_option ");
+						var typeBtn = g("typeBtn ");
+							typeBtn.onclick = onTypeBtnClick;
+							
+						function onTypeBtnClick(e){
+							if(!nav_option){
+								typeBtn.className = " ";
+							}else{
+								if(typeBtn.className == "typeBtn "){
+									typeBtn.className = "typeBtn typeBtnOn ";
+									nav_option.style.display = " ";
+								}else{
+									typeBtn.className = "typeBtn ";
+									nav_option.style.display = "none ";
+								}
+							}
+						}
+					})();
+				        function AutoScroll(obj) {
+				            $(obj).find("ul:first ").animate({
+				                marginTop: "-20px "
+				            }, 500, function () {
+				                $(this).css({ marginTop: "0px " }).find("li:first ").appendTo(this);
+				            });
+				        }
+				        $(document).ready(function () {
+							$("a[href^='' ] ").each(function(){
+								$(this).attr("name ","thirdparty ").attr("domain ",$(this).attr("href ")).attr("href ","javascript:; ");
+							});
+				        	$("a[name='thirdparty' ] ").click(function(){
+				        		$(this).attr("href ","?userName=&amount=&shopId=45442&domain=" + $(this).attr(" domain "));
+				        		var $this = $(this);
+				        		setTimeout(function(){
+				        			$this.attr("href ","javascript:; ");
+				        			},100);
+				        	});
+				        	setInterval('AutoScroll("#scrollNews ")', 5000);
+						$(".EmInfo a.jjggClose ").click(function(){
+							$.ajax({
+							    type: "post ",
+							    url: "/art/gbgg.do ",
+							    data: " ",
+							    async: false,
+							    dataType: "text ",
+							    error: function(xMLHttpRequest, textStatus, errorThrown){},
+							    success: function (){
+							    	$("#urgentnotic ").attr({style:"display:none "});
+							    }
+							});
+						});
+					});
+				</script> 
+    </div>
+  </div>
+</div>
+
+<!-- header end --> 
+
+<!--main start-->
+<div class="mainCont ">
+  <div class="main main_p_10 cf "> 
+    <!-- 彩种 -->
+    
+    <div class="kj_l ">
+      <div id="caizhong " class="kj_l_nav cf ">
+        <h3>合买彩种</h3>
+        <ul class="ul_1 " style="border-top:0; ">
+          <span class="titleli "> <strong>全部合买</strong> </span>
+          <li class="sele "> <a href="# "> 全部合买 <i class="arrow_point "> &gt; </i> </a>
+            <div class="clear "></div>
+          </li>
+        </ul>
+        <ul class="ul_2 ">
+          <span class="titleli "> <strong>竞技彩</strong> </span> <i class="icon_jingji icon_hemai "></i>
+          <li> <a href="# "> 竞彩足球 <i class="arrow_point "> &gt; </i> </a>
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 竞彩篮球 <i class="arrow_point "> &gt; </i> </a>
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 胜负彩 <i class="arrow_point "> &gt; </i> </a> 
+            
+            <!--  <img src="../../images/kaijiang/jrkj.png " alt="今日开奖 " /> -->
+            
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 进球彩 <i class="arrow_point "> &gt; </i> </a> 
+            
+            <!--  <img src="../../images/kaijiang/jrkj.png " alt="今日开奖 " /> -->
+            
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 半全场 <i class="arrow_point "> &gt; </i> </a> 
+            
+            <!--  <img src="../../images/kaijiang/jrkj.png " alt="今日开奖 " /> -->
+            
+            <div class="clear "></div>
+          </li>
+        </ul>
+        <ul class="ul_3_1 ">
+          <span class="titleli "> <strong>数字彩</strong> </span> <i class="icon_shuzi icon_hemai "></i>
+          <li> <a href="# "> 大乐透 <i class="arrow_point "> &gt; </i> </a>
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 排列三 <i class="arrow_point "> &gt; </i> </a> 
+            <!-- <img src="../../images/kaijiang/jrkj.png " alt="今日开奖 " /> -->
+            
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 排列五 <i class="arrow_point "> &gt; </i> </a> 
+            
+            <!-- <img src="../../images/kaijiang/jrkj.png " alt="今日开奖 " /> -->
+            
+            <div class="clear "></div>
+          </li>
+          <li> <a href="# "> 七星彩 <i class="arrow_point "> &gt; </i> </a> 
+            
+            <!-- <img src="../../images/kaijiang/jrkj.png " alt="今日开奖 " /> -->
+            
+            <div class="clear "></div>
+          </li>
+        </ul>
+        <div class="clear "></div>
+      </div>
+      
+      <!-- 合买帮助 -->
+      <div class="kj_l_nav2 cf ">
+        <h3>合买帮助</h3>
+        <ul class="kj_l_ul ">
+          <li><a href="# ">如何发起合买？</a></li>
+          <li><a href="# ">什么是提成？</a></li>
+          <li><a href="# ">什么是保底？</a></li>
+          <li><a href="# ">合买中奖奖金怎么分？</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hm_r_main cf ">
+      <input id="serverTime_ " value=" " type="hidden ">
+      <input id="stopTime_ahead " value=" " type="hidden ">
+      <div class="hm_info cf "> <img src="img/hemailogo.png " class="m-r30 " alt=" ">
+        <div class="f-l "> <span> <strong>全部合买</strong> </span> <a href="# " class="a_btn1 ">发起合买</a>
+          <input id="memberid " value=" " type="hidden ">
+          <input id="slwId " value="45442 " type="hidden ">
+          <a href="# " class="a_btn1 a_btn2 ">我的合买</a> </div>
+        <div class="d_time m-t ">
+          <div class="f-l f-l-ie7 "> </div>
+        </div>
+      </div>
+      
+      <!-- 合买方案明细 -->
+      
+      <div class="hm_list cf ">
+        <form id="planForm " name="planForm " action="/hemai/planDetail.jhtml " method="post ">
+          <div class="hm_search cf "> 
+            <!-- 彩种 -->
+            <input id="licenseId " name="licenseId " value="0 " type="hidden ">
+            <!-- 店铺id -->
+            <input id="slwId " name="slwId " value="45442 " type="hidden ">
+            <div class="hm_search_r ">
+              <label class="datetime "> 日期
+                <input name="selectDate " id="selectDate " size="9 " onfocus="WdatePicker({skin: 'whyGreen',isShowClear:true,readOnly:true,maxDate:$(
+              '').val()}) " type="text ">
+              </label>
+              <!-- <label>发起人用户名：</label> -->
+              <input placeholder="输入发起人用户名 " name="membername " type="text ">
+              <a href="# " class="sub " name="searchPlanBtn ">搜索</a> <span class="search ">更多筛选 <i class="open "></i></span> </div>
+          </div>
+          <div class="nonesearch senior ">
+            <div class="hm_search_l "> <span class="gaoji "> 高级搜索 </span> 
+              <!-- 合买方案状态-->
+              <select id="hemaistate " name="hemaistate ">
+                <option selected="selected " value="0 ">状态</option>
+                <option value="5 ">未满员</option>
+                <option value="1 ">已满员</option>
+                <option value="2 ">已撤单</option>
+              </select>
+              <!-- 金额 -->
+              <select id="allmoney " name="allmoney ">
+                <option value="0 " selected="selected ">金额</option>
+                <option value="1 ">100以下</option>
+                <option value="2 ">100-500</option>
+                <option value="3 ">500-3000</option>
+                <option value="4 ">3000以上</option>
+              </select>
+              <!-- 进度 -->
+              <select id="subscribedschedule " name="subscribedschedule ">
+                <option selected="selected " value="0 ">进度</option>
+                <option value="1 ">30%以下</option>
+                <option value="2 ">30%-60%</option>
+                <option value="3 ">60%-90%</option>
+                <option value="4 ">90%以上</option>
+              </select>
+              <!-- 中奖佣金 --> 
+              
+              <!-- 保底百分比 -->
+              <select id="baodipercent " name="baodipercent ">
+                <option selected="selected " value="0 ">不限保底</option>
+                <option value="1 ">已保底</option>
+                <option value="5 ">未保底</option>
+              </select>
+              <!-- 保密类型 -->
+              <select id="isshow " name="isshow ">
+                <option selected="selected " value="0 ">保密类型</option>
+                <option value="5 ">完全公开</option>
+                <option value="1 ">跟单可见</option>
+                <option value="2 ">开奖后可见</option>
+              </select>
+              <a href="# " class="sub sslevel " name="searchPlanBtn ">搜索</a> </div>
+          </div>
+        </form>
+        <table>
+          <!-- <tr>
+			<th>序号</th>
+			<th>发起人</th>
+			<th>标题</th>
+			<th>彩种</th>
+			<th>进度</th>
+			<th>方案金额 | 每份</th>
+			<th>剩余份数</th>
+			<th>保底百分比</th>
+			<th>认购份数</th>
+			<th>发起时间</th>
+			<th>操作</th>
+		</tr> -->
+          <tbody>
+            <tr>
+              <th>序号</th>
+              <th>发单人</th>
+              <th>彩种</th>
+              <th>内容</th>
+              <th>进度+保底 <img class="jiantou " src="img/jiantou.png "></th>
+              <th>总金额 <img class="jiantou " src="img/jiantou.png "> | 每份</th>
+              <th>剩余份数</th>
+              <th>参与认购</th>
+              <th>详情</th>
+            </tr>
+            <tr>
+              <td colspan="7 " style="height:60px;line-height:60px;color:#9c9c9c; "> 暂时还没有人发起合买！ </td>
+            </tr>
+            
+            <!--进度条<span class="sp " style="width:30%; "> 即 30% 以此类推-->
+          </tbody>
+        </table>
+        <!-- 参与合买form表单 -->
+        <form>
+          <input id="joinMoney " name="joinMoney " type="hidden ">
+          <input id="slw_id " name="slw_id " value=" " type="hidden ">
+          <input id="joinMemberID " name="joinMemberID " value=" " type="hidden ">
+          <input id="joinMemberName " name="joinMemberName " value=" " type="hidden ">
+          <!-- 冻结id -->
+          <input id="memberCreditAccountId " name="memberCreditAccountId " value="1 " type="hidden ">
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- main end --> 
+  
+  <!--footer start--> 
+  
+  <script type="text/javascript " src="img/lotteryBuy.js "></script>
+  <form id="lotteryBuyForm " name="lotteryBuyForm " action="/lottery/buy.jhtml " target="_blank " method="post ">
+    
+    <!-- 1.普通投注 --> 
+    <!-- 1.彩种类别-->
+    <input id="licenseId " name="licenseId " value="0 " type="hidden ">
+    <!-- 1.期次id-->
+    <input id="gameId " name="gameId " value=" " type="hidden ">
+    <!-- 1.期次-->
+    <input id="gameIssue " name="gameIssue " value=" " type="hidden ">
+    <!-- 1.游戏名称-->
+    <input id="gameName " name="gameName " value=" " type="hidden ">
+    <!-- 1.游戏名称-->
+    <input id="poolId " name="poolId " value="6 " type="hidden ">
+    
+    <!-- 1.系统类别/子玩法类别-->
+    <input id="systemId " name="systemId " value="1 " type="hidden ">
+    <!-- 1.投注倍数-->
+    <input id="mult " name="mult " value="1 " type="hidden ">
+    <!-- 1.投注注数-->
+    <input id="betNum " name="betNum " value=" " type="hidden ">
+    <!-- 1.投注单金额-->
+    <input id="betPrice " name="betPrice " value=" " type="hidden ">
+    <!-- 1.是否是追加投注 默认0不追加-->
+    <input id="isAppend " name="isAppend " value="0 " type="hidden ">
+    <!-- 1.单式 -->
+    <input id="singleOrMult " name="singleOrMult " value="1 " type="hidden ">
+    <!-- 1.号码详情-->
+    <input id="betCodes " name="betCodes " value=" " type="hidden ">
+    <!-- 1.单式上传标识 1：单式上传;0：非-->
+    <input id="single " name="single " value="0 " type="hidden ">
+    <!-- 1.号码描述（带对阵信息）//【传统彩可忽略】-->
+    <input id="betDetailDesc " name="betDetailDesc " value=" " type="hidden ">
+    <!-- 1.描述彩种和串长，如竞彩足球（让球胜平负：3串1,2串1）//大乐透(第13021期) 【可忽略】--->
+    <input id="systemTypeDesc " name="systemTypeDesc " value=" " type="hidden ">
+    <!-- 1.游戏开奖时间-->
+    <input id="stopTime " name="stopTime " value=" " type="hidden ">
+    <!-- 1.对阵场次 -->
+    <input id="dcOdds " name="dcOdds " value=" " type="hidden ">
+    <input id="oddsDesc " name="oddsDesc " value=" " type="hidden ">
+    <input id="rqDesc " name="rqDesc " value=" " type="hidden ">
+  </form>
+  <form id="LotteryBuyForm_fdm " name="addLotteryBuyForm " action="/lottery/purchase.jhtml " target="_blank " method="post ">
+    <!-- 2.追号 --> 
+    <!-- 2.彩种类别-->
+    <input id="licenseId " name="licenseId " value="0 " type="hidden ">
+    <!-- 2.游戏名称 -->
+    <input id="plan_title " name="plan_title " value=" " type="hidden ">
+    <!-- 2.倍数描述，与期号描述相对应，逗号隔开-->
+    <input id="mult_desc " name="mult_desc " value="1 " type="hidden ">
+    <!-- 2.投注注数-->
+    <input id="bet_num " name="bet_num " value=" " type="hidden ">
+    <!-- 2.投注单金额-->
+    <input id="all_money " name="all_money " value=" " type="hidden ">
+    <!-- 2.是否是追加投注:0,不追加.1,追加.-->
+    <input id="is_append " name="is_append " value="0 " type="hidden ">
+    <!-- 2.号码详情-->
+    <input id="plan_code " name="plan_code " value=" " type="hidden ">
+    <!-- 2.总期次 -->
+    <input id="all_issues " name="all_issues " value="0 " type="hidden ">
+    <!-- 2.中奖停止金额 -->
+    <input id="stop_bonus " name="stop_bonus " value="0 " type="hidden ">
+    <!-- 2.是否首期追加:0,首期不追加;1,首期追加. -->
+    <input id="first_pay " name="first_pay " value="1 " type="hidden ">
+    <!-- 2.期次描述，逗号隔开  -->
+    <input id="issues_desc " name="issues_desc " value=" " type="hidden ">
+    <!-- 2.号码类型 -->
+    <input id="code_type " name="code_type " value="0 " type="hidden ">
+    <!-- 2.游戏开奖时间-->
+    <input id="stopTime " name="stopTime " value=" " type="hidden ">
+  </form>
+  <form id="mealLotteryBuyForm " action="/lottery/chaseMeal.jhtml " method="post ">
+    <input id="meal_licenseId " name="licenseId " value="0 " type="hidden ">
+    <input id="meal_mult " name="mealMult " value=" " type="hidden ">
+    <input id="meal_period " name="mealPeriod " value=" " type="hidden ">
+    <input id="packageType " name="packageType " value=" " type="hidden ">
+  </form>
+  <div class="popBoxBg " id="lotteryBuy " style="display:none ">
+    <div class="popBox p_b_6 ">
+      <h4><a href="# " name="closeBtn " class="closeBtn " id="closeBtn ">×</a>
+        <label name="lotteryBuy_title ">个人代购</label>
+      </h4>
+      <div class="popCon "> <br>
+        <br>
+        <p class="w_300 ">
+          <label name="lotteryBuy_content ">本次购买<b id="lotteryBuy_cz "></b>第<b id="lotteryBuy_qi "></b>期<br>
+            投注<b id="lotteryBuy_bei "></b>倍，</label>
+          <label name="lotteryBuy_type ">订单金额</label>
+          <b id="lotteryBuy_yuan "></b>元 <br>
+          您账户可投注余额：<b name="currAmount "></b>元 <br>
+        </p>
+        <div id="zhuihao_submit "> </div>
+        <p></p>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="popBoxBg " id="lotteryBuyCz " style="display:none ">
+    <div class="popBox p_b_6 ">
+      <h4><a href="# " name="closeBtn " class="closeBtn " id="closeBtn ">×</a>
+        <label name="lotteryBuy_titleCz ">个人代购</label>
+      </h4>
+      <div class="popCon "> <br>
+        <br>
+        <p class="w_300 ">
+          <label name="lotteryBuy_contentCz ">本次购买<b id="lotteryBuy_czCz "></b>第<b id="lotteryBuy_qiCz "></b>期<br>
+            投注<b id="lotteryBuy_beiCz "></b>倍，</label>
+          <label name="lotteryBuy_typeCz ">订单金额</label>
+          <b id="lotteryBuy_yuanCz "></b>元 <br>
+          您账户可投注余额：<b name="currAmount "></b>元 <br>
+        </p>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="popBoxBg " id="alertMessage " style="display:none ">
+    <div class="popBox p_b_6 ">
+      <h4><a href="# " name="closeBtn " class="closeBtn " id="closeBtn ">×</a>温馨提示</h4>
+      <div class="popCon "> <br>
+        <br>
+        <p class="w_300 " style="text-align:center; "> <b id="messageContent "></b> <br>
+          <a href="# " name="closeBtn ">确定</a> </p>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="popBoxBg " id="gameChange " style="display:none ">
+    <div class="popBox p_b_6 ">
+      <h4><a href="# " name="closeBtns " class="closeBtn " id="closeBtns " onclick="closegameChange( '0'); ">×</a>温馨提示</h4>
+      <div class="popCon "> <br>
+        <br>
+        <p class="w_300 "> <b id="gameChangeMessage "></b> <br>
+          <a href="# " name="closeBtns " onclick="closegameChange( '0'); ">确定</a> </p>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 金额不够，但是点击购买时候弹出次提示框 -->
+  <div class="popBoxBg " id="rechargeBox " style="display:none ">
+    <div class="popBox p_b_6 ">
+      <h4><a href="# " name="closeBtn " class="closeBtn " id="closeBtn2 ">×</a>温馨提示</h4>
+      <div class="popCon " style="padding:40px 0;width:414px;border:0; ">
+        <p style="width: 260px; "> <span style="font-size:14px; " id="messageshow ">您的可投注余额不足, 请充值！</span><br>
+          <span style="color:#666; ">(点"充值 "跳到充值页面，点"返回 "可进行修改)</span> <a class="qd " href="# " target="_blank
+              "></a> <a class="fh " href="# " name="closeBtn "></a> </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 竞彩代购 start -->
+  <div class="confirmBg " id="confirm " style="display:none; ">
+    <table class="confirmMain ">
+      <thead>
+        <tr>
+          <th colspan="2 "> 确认投注内容 </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> 彩种玩法 </td>
+          <td id="confirm_desc " class="fb "></td>
+        </tr>
+        <tr>
+          <td> 投注内容 </td>
+          <td><div class="tabLCont ">
+              <table class="tabL ">
+                <thead>
+                  <tr>
+                    <th>赛事 </th>
+                    <th style="width:180px; ">对阵<!--添加style--> </th>
+                    <th>您的选择 </th>
+                  </tr>
+                </thead>
+              </table>
+              <div class="tabLBody "><!--添加一层DIV-->
+                <table class="tabL ">
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tabRCont ">
+              <table class="tabR ">
+                <thead>
+                  <tr>
+                    <th colspan="2 ">过关方式 </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>过关方式 </td>
+                    <td>倍数 </td>
+                  </tr>
+                  <tr>
+                    <td id="gg_type "></td>
+                    <td id="confirm_mult "></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2 " style="padding: 5px 0;border-bottom:1px solid #BCCDE9; ">总金额：<span name="confirm_money
+              " class="c-red "></span>元<!--添加style--></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="clear "></div></td>
+        </tr>
+        <tr>
+          <td> 方案信息 </td>
+          <td id="confirm_message "></td>
+        </tr>
+        <tr id="confirm_message_hm "> </tr>
+        <tr class="nB ">
+          <td> 个人代购 </td>
+          <td><p>你的帐户余额为<span class="c-red " id="confirm_lotteryMoney ">￥</span>元。 </p>
+            <p>本次投注总金额为<span class="c-red " id="confirm_money_me "></span>元。</p>
+            <p>
+              <input id="isMergeBtn " checked="checked " type="checkbox ">
+              <span class="c-red ">*为了节约出票时间，您选的方案可能会自动合单处理。</span></p>
+            <p style="display:none ">
+              <input id="allowFollowBtn " type="checkbox ">
+              <span class="c-red ">*允许其他用户复制订单。<font color="#2082de ">（发单佣金:中奖金额的3%）</font></span>
+              <textarea id="declarationTxt " style="display:none; " rows="2 " cols="60 ">中奖宣言！(30字以内)</textarea>
+            </p>
+            <p>
+              <input id="agree " value=" " name=" " checked="checked " type="checkbox ">
+              我已阅读并同意 <font class="fblue "> <a target="_blank " href="# ">《彩民与彩站交易须知》</a> </font> </p>
+            <div id="confirm_submit " class="ljgmA ">
+              <input id="submitForm " class="ljgmBtn f-l " type="button ">
+              <a href="# " class="f-l ">返回修改&gt;&gt;</a>
+              <div class="clear "></div>
+            </div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- 竞彩代购 end --> 
+  
+  <!-- 数字彩代购 start -->
+  <div id="szc_confirm_dg " style="display:none; " class="szc_c ">
+    <div class="szc_c_fdm "> <span class="f-l " id="szc_confirm_span ">个人代购</span> <span class="close f-r " name="closeBtn ">x</span>
+      <div class="clear "></div>
+    </div>
+    <div class="szc_c_main ">
+      <h3 id="szc_confirm_title "> 大乐透第13012期方案代购 </h3>
+      <table>
+        <thead id="szc_confirm_fdm ">
+        </thead>
+        <tbody>
+          <tr>
+            <td> 投注内容 </td>
+            <td name="szc_confirm_td " colspan="5 "><div id="szc_confirm_codes " class="tznr_tab_c "> </div></td>
+          </tr>
+          <tr>
+            <td> 认购信息 </td>
+            <td name="szc_confirm_td " colspan="5 " style="text-align:left; "> 您本次购买需消费<span class="c-red " id="szc_confirm_money
+              ">￥20.00</span>元，您的可投注余额<span class="c-red " id="szc_confirm_balance ">￥20.00</span>元。 </td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="szc_confirm_submit " class="ljtz ">
+        <input id="submitForm " class="ljtzBtn f-l " type="button ">
+        <a href="# " class="f-l " name="closeBtn ">返回修改&gt;&gt;</a>
+        <div class="clear "></div>
+      </div>
+    </div>
+  </div>
+  <!-- 数字彩代购 end -->
+  
+  <div id="jc_confirm_message " class="popBoxBg " style="display:none; ">
+    <div class="popBox p_b_6 ">
+      <h4><a name="closeBtn " class="closeBtn " href="# ">×</a>温馨提示</h4>
+      <div class="popCon " style="padding:40px 0;width:414px;border:0; ">
+        <p style="width: 260px; "> <span style="font-size:14px; ">您的可投注余额不足, 请充值！</span><br>
+          <span style="color:#666; ">(点"充值 "跳到充值页面，点"返回 "可进行修改)</span> <a id="jc_recharge " class="qd " href="#
+              "></a> <a name="closeBtn " class="fh " href="# "></a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer " style="background: #f1f1f1;margin-top: 10px ">
+    <div class="links bg-w ">
+      <div class="linkBottom "> <img src="img/bottom.png " alt=" "> </div>
+      <ul>
+        <li class="one "><img src="img/lc.png " alt=" "><b>购彩流程</b></li>
+        <li><a href="# ">注册身份信息</a></li>
+        <li><a href="# ">投注和付款</a></li>
+        <li><a href="# ">查看订单</a></li>
+        <li><a href="# ">领奖与兑奖</a></li>
+      </ul>
+      <ul>
+        <li style="padding-top:4px;margin-bottom:-3px; "><img src="img/tk.png " alt=" "><b>充值提款</b></li>
+        <li><a href="# ">如何充值</a></li>
+        <li><a href="# ">如何提款</a></li>
+        <li><a href="# ">提款注意事项</a></li>
+        <li><a href="# ">更改提款账户</a></li>
+      </ul>
+      <ul style="background:none; ">
+        <li class="ml60 one " style="padding-top:3px; "><img src="img/zc.png " alt=" "><b>帮助与支持</b></li>
+        <li><a href="# ">帮助中心</a></li>
+        <li><a href="# ">常见问题</a></li>
+        <li><a href="# ">意见及建议</a></li>
+        <li><a href="# ">大奖领取流程</a></li>
+      </ul>
+      <div class="clear "></div>
+      <div class="footerBg "></div>
+    </div>
+    <p class="copy " style="background: #FFF "> <a href="# " logo_type="realname " logo_size="83x30 " target="_blank
+              "> <img style="border: none; " alt="安全联盟认证 " src="img/sm_83x30.png " width="83 " height="30 "> </a> <br>
+      备案/许可证编号为：<a href="# " target="_blank ">沪ICP备14049982号</a> |沪公网安备号：11010802017926|客服热线： <b>4000879187</b> <br>
+    </p>
+  </div>
+  
+  </div>
+  
+  <!-- footer end --> 
+</div>
+<iframe id="cm_if " src="img/index.htm " style="display: none; "></iframe>
+
+<!--控制表格隔行变色--> 
+<script type="text/javascript ">
+	/*$(document).ready(function(){
+		$(".hm_list table tr:gt(0):even() ").css("background-color ","#fff ");	
+		$(".hm_list table tr:gt(0):odd() ").css("background-color ","#f5f4f4 ");
+
+		
+	});*/
+</script>
+</body>
+</html>

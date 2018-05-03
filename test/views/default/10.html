@@ -1,0 +1,306 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<link href="./css/common.css" type="text/css" rel="stylesheet">
+<link href="./css/lottery.css" type="text/css" rel="stylesheet">
+<link href="./css/caizhan.css" type="text/css" rel="stylesheet">
+<link href="./css/help.css" type="text/css" rel="stylesheet">
+</head>
+<body class="sports">
+<div class="header cf">
+  <div class="welBg">
+    <p class="wel bg-w"> <span class="help f-r"> <a class="aBg" href="#" target="_blank">手机客户端</a> <span class="p-r_5">|</span> <a class="aBg" href="#">帮助中心</a> <span class="p-r_5">|</span> <a href="#" class="aBg">意见反馈</a> <span class="p-r_5">|</span> <a href="#">收藏本站</a> </span>
+      <label id="header"> <span>您好，<span>实体游戏店</span>欢迎您！</span><a class="aBg blue" href="#">请登录</a><span class="p-r_5">|</span><a href="#" class="blue">免费注册</a> </label>
+    </p>
+  </div>
+  <div class="EmInfo" style="display:none" id="urgentnotic">
+    <div class="EmInfoMain">
+      <input type="hidden" id="urgentid" value="0">
+      <img src="./img/EmInfoImg.png" alt=""> <span class="f-l fb">店主公告：</span> <span class="f-l" id="scrollNews">店主公告：</span> <a href="#" class="jjggClose">关闭</a>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="logoCont" style="background: url(img/headBg.jpg) center center no-repeat;">
+    <div class="logo cf">
+      <h1> <a name="toSports" class="logoBox" style="font-weight:bold;font-family:&#39;微软雅黑&#39;;font-size:32px;" href="#" target="_self">实体游戏店<cite>www.stcpd.com</cite></a> <span class="shopLink"> </span> </h1>
+      <div class="logo_r">
+        <div class="qqlink" style="float:right;"> <a id="qqlink" target="_blank" href="#"><img src="./img/qq.jpg" title="85250396"></a> </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div class="navBg cf">
+    <div class="bg-w cf">
+      <h2 class="typeBtn" id="typeBtn"> 选择彩种 </h2>
+      <ul class="nav">
+        <li> <a name="toSports" href="index.html"> 首页 </a> </li>
+        <li style="position: relative;"> <a  href="02.html"> 跟单大厅 </a> <span id="hotGif"> </span> </li>
+        <!--<li><a  href="/lottery/index.jhtml">购彩大厅</a></li>-->
+        <li id="hmdtIndexId"> <a href="03.html"> 合买大厅 </a> </li>
+        <li> <a href="04.html"> 游戏开奖 </a> </li>
+        <li> <a href="05.html" target="_blank" name="thirdparty"> 走势图 </a> </li>
+        <li> <a href="06.html"> 即时比分 </a> </li>
+        <li style="display: none;"> <a href="#" target="_blank"" name="thirdparty"> 网站推荐 </a> </li>
+        <li> <a href="07.html"> 本店推荐 </a> </li>
+        <li> <a class="on" href="01.html"> 彩站介绍 </a> </li>
+      </ul>
+       <!--如果不是首页-->
+      
+      <ul class="typeBox typeBox_sele" id="nav_option" style="display:none;">
+        <!--福彩--> 
+        
+        <!--体彩-->
+        
+        <li>
+          <div class="navImgCont"> <img src="img/ico_jc.png" alt="" /> 竞足 </div>
+          <p> <a href="#"><strong>单关投注</strong></a> <a href="#">胜平负</a> <a href="#">比分</a> <a href="#">让球胜平负</a> <a href="#">总进球</a> <a href="#">半全场</a> <a href="#">混合过关</a> <a href="#">2选1</a> 
+            <!-- 										<a href="lottery/jczq/EuropeanCup.jhtml"><strong>冠亚军</strong></a><img src="/images/caizhan/new.png" width="20" height="20"/></a>
+ --> <!--<a href="lottery/jczq/WorldCup.jhtml">冠亚军</a><img src="img/new.png" alt="" />--> 
+          </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_jl.png" alt="" /> 竞篮 </div>
+          <p> <a href="#">单关投注</a> <a href="#">让分胜负</a> <a href="#">胜负</a> <a href="#">胜分差</a> <a href="#">大小分</a> <a href="#">混合过关</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_sfc.png" alt="" /> 足彩 </div>
+          <p> <a href="#">胜负彩</a> <a href="#">任选九</a> <a href="#">进球彩</a> <a href="#">半全场</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_dlt.png" alt="" /> 体彩 </div>
+          <p> <a href="#">大乐透</a> <a href="#">排列三</a> <a href="#">排列五</a> <a href="#">七星彩</a> </p>
+        </li>
+        <li>
+          <div class="navImgCont"> <img src="img/ico_11x5.png" alt="" /> 高频 </div>
+          <p> <a href="#">新疆11选5</a> </p>
+        </li>
+      </ul>
+      <script type="text/javascript">
+					window.onload = function(){
+						var n = document.getElementById("nav_option");
+						var o = document.getElementById("typeBtn");
+						if(!n){
+							o.className = "";
+						}
+					}
+					function g(id){ return document.getElementById(id);}
+					(function(){
+						var nav_option = g("nav_option");
+						var typeBtn = g("typeBtn");
+							typeBtn.onclick = onTypeBtnClick;
+							
+						function onTypeBtnClick(e){
+							if(!nav_option){
+								typeBtn.className = "";
+							}else{
+								if(typeBtn.className == "typeBtn"){
+									typeBtn.className = "typeBtn typeBtnOn";
+									nav_option.style.display = "";
+								}else{
+									typeBtn.className = "typeBtn";
+									nav_option.style.display = "none";
+								}
+							}
+						}
+					})();
+				        function AutoScroll(obj) {
+				            $(obj).find("ul:first").animate({
+				                marginTop: "-20px"
+				            }, 500, function () {
+				                $(this).css({ marginTop: "0px" }).find("li:first").appendTo(this);
+				            });
+				        }
+				        $(document).ready(function () {
+							$("a[href^='']").each(function(){
+								$(this).attr("name","thirdparty").attr("domain",$(this).attr("href")).attr("href","javascript:;");
+							});
+				        	$("a[name='thirdparty']").click(function(){
+				        		$(this).attr("href","?userName=&amount=&shopId=45442&domain=" + $(this).attr("domain"));
+				        		var $this = $(this);
+				        		setTimeout(function(){
+				        			$this.attr("href","javascript:;");
+				        			},100);
+				        	});
+				        	setInterval('AutoScroll("#scrollNews")', 5000);
+						$(".EmInfo a.jjggClose").click(function(){
+							$.ajax({
+							    type: "post",
+							    url: "/art/gbgg.do",
+							    data: "",
+							    async: false,
+							    dataType: "text",
+							    error: function(xMLHttpRequest, textStatus, errorThrown){},
+							    success: function (){
+							    	$("#urgentnotic").attr({style:"display:none"});
+							    }
+							});
+						});
+					});
+				</script> 
+    </div>
+  </div>
+</div>
+
+<!-- left end --> 
+<!--main start-->
+<div class="main cf"> 
+  <!-- left start -->
+  
+  <div class="main_l cf"> <img src="./img/tel.jpg" alt="">
+    <div class="help_nav cf">
+      <ul class="ul_help_nav cf" id="ul_help_nav">
+        <li><a href="#"><strong>帮助首页</strong></a></li>
+        <li class="a_select open"> <a href="#"><strong class="str"><i></i>彩种玩法</strong></a>
+          <ul style="display:block;">
+            <li id="ssq"><a href="#">双色球</a></li>
+            <li id="dlt"><a href="#">大乐透</a></li>
+            <li id="qlc"><a href="#">七乐彩</a></li>
+            <li id="qxc"><a href="#">七星彩</a></li>
+            <li id="3d"><a href="#">福彩3D</a></li>
+            <li id="pl3"><a href="#">排列三</a></li>
+            <li id="pl5"><a href="#">排列五</a></li>
+            <li id="22c5"><a href="#">22选5</a></li>
+            <li id="sfc"><a href="#">胜负彩14场</a></li>
+            <li id="r9"><a href="#">任选九</a></li>
+            <li id="jqc"><a href="#">4场进球彩</a></li>
+            <li id="bqc"><a href="#">6场半全场</a></li>
+            <li id="jczq"><a href="#">竞彩足球</a></li>
+            <li id="jclq" class="last"><a href="#">竞彩篮球</a></li>
+          </ul>
+        </li>
+        <li class="a_select close"> <a href="#"><strong class="str"><i></i>购彩帮助</strong></a>
+          <ul style="display:none;">
+            <li id="ds"><a href="#">投注</a></li>
+            <li id="czfs"><a href="#">充值提款</a></li>
+            <li id="getticket"><a href="#">取票兑奖</a></li>
+            <li id="registor" class="last"><a href="#">账户</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><strong>常见问题</strong></a></li>
+      </ul>
+      <span class="sp_fk"><a href="#">还有问题 立即反馈</a></span> </div>
+  </div>
+  <!-- left end --> 
+  <!-- right start -->
+  <div class="main_r czwf_main cf" deep="1"> <strong>如何注册用户？</strong>
+    <ul>
+      <li>1、在彩站首页顶部选择"免费注册"；</li>
+      <li>2、进入注册页面，填写用户名、密码、电子邮箱等注册信息，填写无误后，点击"提交注册"；</li>
+      <li>3、登录验证邮箱，系统会给您填写的电子邮箱发送激活信；</li>
+      <li>4、打开验证邮箱中的激活信，点击链接即可；如果链接无法点击，请复制粘贴到浏览器访问；</li>
+      <li>5、注册成功！您可以马上充值购彩，还可以丰富个人资料，提升账户安全级别。</li>
+    </ul>
+    <strong>忘记密码了怎么办？</strong>
+    <ul>
+      <li>若忘记密码，可在登录时点击"忘记密码"，输入用户名后可通过"用手机找回"、"用邮箱找回"、"用密保找回"等三种方式找回密码。 </li>
+      <li>可以通过在线客服或拨打客服热线来咨询，我们需要核对用户的姓名、身份证号等，资料核对无误之后，由工作人员为用户重置密码，用户登陆后再请自行修改密码。 </li>
+      <li>或者直接联系彩站店主，店主确认后也可以为用户重置密码。 </li>
+    </ul>
+    <strong>怎么修改密码？</strong>
+    <ul>
+      <li>登录stcpd.com平台，进入"我的账户"； </li>
+      <li>在左侧导航中进入"修改密码"进行密码修改。 </li>
+    </ul>
+    <strong>怎么修改资料？</strong>
+    <ul>
+      <li>登录stcpd.com平台，进入"我的账户"； </li>
+      <li>在左侧导航中进入"基本资料"，然后可以修改用户的基本信息。 </li>
+    </ul>
+    <strong>为什么要实名认证？</strong>
+    <ul>
+      <li>购买者的真实身份信息非常重要，姓名和身份证号码是领奖的凭证，请务必真实填写，否则无法领奖。购买游戏是个人行为，请保证您所提交的身份信息是您个人的真实信息，不要使用公司或别人的信息； </li>
+      <li>一旦使用错误的身份信息购买了游戏并中了大奖，会导致无法领取奖金的严重后果，请慎重填写自己的真实身份信息。 </li>
+      <li>如果填写了错误的身份信息，请过在线客服或拨打客服热线来咨询，我们需要核对用户的姓名、身份证号等，资料核对后进行更改。 </li>
+      <li>请保证您所提交的新身份信息的真实性和有效性，如果修改后的信息错误，将导致您中奖后无法领奖。</li>
+    </ul>
+  </div>
+  <!-- right end --> 
+</div>
+<!-- main end --> 
+<!--footer start-->
+
+<div class="footer" style="background: #f1f1f1;margin-top: 10px">
+  <div class="links bg-w">
+    <div class="linkBottom"> <img src="./img/bottom.png" alt=""> </div>
+    <ul>
+      <li class="one"><img src="./img/lc.png" alt=""><b>购彩流程</b></li>
+      <li><a href="#">注册身份信息</a></li>
+      <li><a href="#">投注和付款</a></li>
+      <li><a href="#">查看订单</a></li>
+      <li><a href="#">领奖与兑奖</a></li>
+    </ul>
+    <ul>
+      <li style="padding-top:4px;margin-bottom:-3px;"><img src="./img/tk.png" alt=""><b>充值提款</b></li>
+      <li><a href="#">如何充值</a></li>
+      <li><a href="#">如何提款</a></li>
+      <li><a href="#">提款注意事项</a></li>
+      <li><a href="#">更改提款账户</a></li>
+    </ul>
+    <ul style="background:none;">
+      <li class="ml60 one" style="padding-top:3px;"><img src="./img/zc.png" alt=""><b>帮助与支持</b></li>
+      <li><a href="#">帮助中心</a></li>
+      <li><a href="#">常见问题</a></li>
+      <li><a href="#">意见及建议</a></li>
+      <li><a href="#">大奖领取流程</a></li>
+    </ul>
+   
+    <div class="clear"></div>
+    <div class="footerBg"></div>
+  </div>
+  <p class="copy" style="background: #FFF"> <a href="#" logo_type="realname" logo_size="83x30" target="_blank"> <img width="83" height="30" style="border: none;" alt="安全联盟认证" src="./img/sm_83x30.png"> </a> <br>
+    备案/许可证编号为：<a href="#" target="_blank">沪ICP备14049982号</a> |沪公网安备号：11010802017926|客服热线： <b>4000879187</b> <br>
+  </p>
+</div>
+<div id="tsBox" class="ui_alert ui_alert2" style="display:none;">
+  <h3>温馨提示</h3>
+  <div class="ui_alert_main">
+    <div class="ui_alert_txt" id="tsBoxContent">您好，请确定您要保存的信息！</div>
+    <div class="ui_alert_btns"> <a href="#" class="a_sure" id="submitBtnEnd">确定</a> <a href="#" class="a_sure a_esc" id="closeBtn4">取消</a> </div>
+  </div>
+  <a href="#" class="close" id="closeBtn3">×</a> </div>
+<div id="tsBoxJc" class="ui_alert ui_alert2" style="display:none;">
+  <h3>温馨提示</h3>
+  <div class="ui_alert_main">
+    <div class="ui_alert_txt" id="tsBoxContentJc">您好，请确定您要保存的信息！</div>
+    <div class="ui_alert_btns"> <a href="#" class="a_sure" >确定</a> <a href="#" class="a_sure a_esc" id="closeBtn6">取消</a> </div>
+  </div>
+  <a href="#" class="close" id="closeBtn5">×</a> </div>
+<div id="hemaiBox" class="ui_alert ui_alert2" style="display:none;">
+  <h3>温馨提示</h3>
+  <div>
+    <div id="hemaiBoxContent"> </div>
+    <div class="ui_alert_btns"> <a href="#" class="a_sure" id="hemaiconfirm">确定</a> <a href="#" class="a_sure a_esc" id="hemaiCancel">取消</a> </div>
+  </div>
+  <a href="#" class="close" id="hemaiCloseBox">×</a> </div>
+<div id="loginBox" class="dlBox" style="display:none;">
+  <h3 class="dlBox_red_bg"> <span><a id="closeLoginBtn" href="#"><img src="./img/loginclose.gif" alt="关闭"></a></span>彩民登录 </h3>
+  <div class="dlBox_c">
+    <div id="loginError" style="margin-top:-20px;height:20px;color:red;"></div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td width="60" height="40">用户名：</td>
+          <td><input type="text" name="username" id="username" class="dlBox_wbk"></td>
+        </tr>
+        <tr>
+          <td height="40">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+          <td><input type="password" name="password" id="password" class="dlBox_wbk"></td>
+        </tr>
+        <tr>
+          <td height="35">&nbsp;</td>
+          <td class="dlBox_f12"><a href="#"><img id="loginSubmit" src="./img/loginbtn.png" alt="登录" width="88" height="28" align="absmiddle"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank"><u>忘记密码？</u></a></td>
+        </tr>
+        <tr>
+          <td height="35">&nbsp;</td>
+          <td class="dlBox_f12"><a href="#" target="_blank"><u>免费注册stcpd.com账户&gt;&gt;</u></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- footer end -->
+
+</body>
+</html>

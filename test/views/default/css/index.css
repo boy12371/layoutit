@@ -1,0 +1,55 @@
+@charset "gb2312";
+.zst_nav_box{border:1px solid #ddd; background:url(images/zst_nav_bg.gif);height:40px;padding:4px 0;}
+.zst_nav_box ul{ overflow:hidden;zoom:1;}
+.zst_nav_box li{float:left;overflow:hidden;zoom:1; height:40px;padding:0 10px;}
+.border_r{border-right:1px solid #ddd;}
+.zst_ftg{float:left;width:73px;text-align:center; height:40px; line-height:40px; font-weight:bold;}
+.zst_cz{float:left;line-height:20px;color:#666; }
+.zst_cz a{color:#666; padding:0 10px;}
+
+.zst_con_box{border:1px solid #ddd;padding:1px;}
+.zst_bg{background:#f5f5f5;padding:18px;padding-top:0px;}
+.zst_fc_tit{background:url(images/zst_ftg_ico.gif) no-repeat 0 0; line-height:48px; padding-left:46px; font-size:16px; font-weight:bold; font-family:"Î¢ÈíÑÅºÚ";overflow:hidden;zoom:1;}
+.zst_fc_name{float:left;} 
+.zst_fc_ad{float:right;padding:5px 0px;} 
+.zst_tc_tit{background:url(images/zst_ftg_ico.gif) no-repeat 0 -50px; line-height:48px; padding-left:46px; font-size:16px; font-weight:bold; font-family:"Î¢ÈíÑÅºÚ";}
+.zst_gp_tit{background:url(images/zst_ftg_ico.gif) no-repeat 0 -100px; line-height:48px; padding-left:46px; font-size:16px; font-weight:bold; font-family:"Î¢ÈíÑÅºÚ";}
+.zst_ftg_con{border:1px solid #ddd;border-left:none;background:#fff;}
+.zst_ftg_con ul{overflow:hidden;zoom:1;}
+.zst_ftg_con .border_l{float:left;width:430px;border-left:1px solid #ddd;padding:19px 19px 0px 19px;overflow:hidden;zoom:1;}
+.border_b{border-bottom:1px solid #ddd;}
+.zst_ftg_l{float:left;width:90px;}
+.zst_ftg_l h3{ line-height:34px; font-weight:bold; color:#c00; font-size:14px; text-align:center}
+.cz_yc_btn a {display:block;width:90px;height:25px;line-height:25px; text-align:center;background:url(images/zst_index_btn.gif) no-repeat; margin-bottom:5px;}
+.zst_ftg_r{float:right;width:315px;}
+.zst_con{ border-bottom:1px dashed #ddd; padding-bottom:5px;} 
+.zst_con ul{ overflow:hidden;zoom:1;}
+.zst_con li{float:left;width:105px; line-height:30px; font-size:14px;}
+.c_ccc{color:#ccc;}
+.gj_con{ padding-top:3px;}
+.gj_con ul{ overflow:hidden;zoom:1;}
+.gj_con li{float:left;width:105px; line-height:30px; font-size:14px;}
+.xcwz_ad{ overflow: hidden;*_zoom:1;padding:5px 0px;}
+.xcwz_ad .xcwz_box{float:left;width:320px; background: #fff9ed; border: 1px solid #f1ddb8; line-height: 23px;}
+.xcwz_ad .xcwz_box ul{overflow: hidden;*_zoom:1;}
+.xcwz_ad .xcwz_box li{float:left;width:150px;height:23px;padding-left:10px; overflow: hidden;} 
+.xcwz_ad .xcwz_box li a{color:#f00;} 
+.zst_more{ float:right;width:94px;text-align:right;line-height:25px;}
+.zst_more a{color:#039;}
+.ph_con{ padding:5px 0 ;}
+.ph_con ul{ overflow:hidden;zoom:1;}
+.ph_con li{float:left;width:105px; line-height:30px; font-size:14px;}
+.sc_con{ padding:5px 0 ;}
+.sc_con ul{ overflow:hidden;zoom:1;}
+.sc_con li{float:left;width:157px; line-height:30px; font-size:14px;}
+.zst_gp_con{ border-bottom:1px dashed #ddd; padding-bottom:5px;}
+.zst_gp_con ul{ overflow:hidden;zoom:1;}
+.zst_gp_con li{float:left;width:157px; line-height:30px; font-size:14px;}
+.kong_con{ border-bottom:1px dashed #fff; padding-bottom:5px;} 
+.kong_con ul{ overflow:hidden;zoom:1;}
+.kong_con li{float:left;width:105px; line-height:30px; font-size:14px;}
+/*ÉÌÎñºÏ×÷*/
+.swhz{padding:10px;border:1px solid #ddd; background:#ffffcc}
+.swhz a{color:#039;}
+/*166²Ê¹ã¸æ*/
+.gg166{overflow: hidden;z-index: 9999;position: fixed;top: 250px;left: 70px;}

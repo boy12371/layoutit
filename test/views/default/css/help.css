@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.main_l{ width:206px; background:0; padding-top:10px;}
+.main_r{ width:774px; background:0;  padding-top:10px;}
+
+.help_nav{ border:solid #cbcbcb 1px; position:relative; margin-top:10px;  background:#ebe9ea; min-height:960px; _height:960px; }
+.ul_help_nav{ display:block; overflow:hidden;}
+.ul_help_nav li{  border-top: solid #cbcbcb 1px; border-bottom: solid #cbcbcb 1px; margin-top:-1px;}
+.ul_help_nav li a{ display:block; border:solid #fff 1px; height:31px; line-height:31px; color:#444444;}
+.ul_help_nav li strong{ display:block; height:31px; background:url(../images/help/navbg.png) repeat-x; font-size:14px;  padding-left:70px;}
+.ul_help_nav li strong.str{ padding-left:52px;}
+.ul_help_nav li i{ display:inline-block; vertical-align:middle; width:9px; height:9px; background:url(../images/help/ico.png) no-repeat; overflow:hidden; margin-right:8px;}
+.ul_help_nav li.hover a{ color:#eb4908;  }
+.ul_help_nav li.close ul{ display:none;}
+.ul_help_nav li.open i{ background:url(../images/help/ico2.png) no-repeat;}
+
+.ul_help_nav ul{ display:block;border-top: solid #cbcbcb 1px; }
+.ul_help_nav ul li{ border:0;  margin:0; padding:0; background:url(../images/help/optbg.png) no-repeat center bottom; padding-bottom:2px;}
+.ul_help_nav ul a{ border:0; text-align:left; padding-left:75px; font-size:14px; height:34px; line-height:34px;}
+.ul_help_nav ul li.hover a{font-weight:bold; display:block;  background:url(../images/help/navselebg.png) repeat-y; }
+.ul_help_nav ul li.last{ background:0;}
+
+.sp_fk{ display:block; padding:10px 0; text-align:center;}
+.sp_fk a{ display:inline-block; width:166px; height:53px; background:url(../images/help/fk_btn.png) no-repeat; font-size:0; line-height:0; overflow:hidden;}
+
+.help_r_box{ border:solid #cbcbcb 1px; position:relative; background:#fff; margin-top:10px;}
+.help_r_box h3{border-bottom:solid #cbcbcb 1px;  height:30px; padding-left:12px; background:url(../images/help/boxtbg.png) repeat-x; line-height:30px; font-size:14px; color:#444;}
+
+/*帮助首页 start*/
+.gclc{ margin:0;}
+.gclc ul{ background:#f5f5f5; padding:20px 16px;}
+.gclc li{ float:left; width:150px; padding-right:30px; margin-left:12px; display:inline; background:url(../images/help/jiantou.png) no-repeat right center; line-height:22px;}
+.gclc li strong{ display:block; color:#1f5ba9;}
+.gclc li p{ color:#333; line-height:23px;}
+.gclc li.last{ background:0; padding:0;}
+
+
+.czwf ul{ display:block; padding:15px; }
+.czwf li{ float:left; width:184px; height:75px; padding-top:12px; border-bottom:solid #cbcbcb 1px; border-right:solid #cbcbcb 1px;}
+.czwf li img{ float:left; margin:2px 0 0 14px; display:inline;}
+.czwf li div{ float:right; width:95px; line-height:22px;}
+.czwf li strong{ font-size:14px; font-weight:lighter;}
+.czwf li.no_b{ border-bottom:0;}
+.czwf li.no_r{ border-right:0;}
+
+
+.gcbz ul{ display:block; padding-bottom:20px;}
+.gcbz li{ float:left; width:50%;  margin-top:20px; display:inline;}
+.gcbz li p{ display:block; padding-left:64px; line-height:24px;}
+.gcbz li strong{ display:block; background:url(../images/help/jiantou2.png) no-repeat 0 center;  margin-left:50px; color:#444; padding:5px 0 5px 14px;}
+.gcbz li a{ color:#1e5bab;}
+
+
+.cjwt ul{ display:block; padding:15px;}
+.cjwt li{ float:left; width:49%; padding:5px 0;}
+.cjwt li a{ float:left; background:url(../images/help/dotted.png) no-repeat 0 center; padding-left:8px; white-space:nowrap; height:20px; line-height:20px; overflow:hidden; margin-left:30px; display:inline;}
+
+/*帮助首页 end*/
+
+/*彩种玩法 start*/
+.czwf_main{ border:solid #cbcbcb 1px; width:732px; background:#fff; padding:20px; min-height:980px; _height:980px; margin-top:10px;}
+.czwf_main p{ display:block; color:#444343; line-height:25px; padding-bottom:20px;}
+.czwf_main strong{ display:block; color:#333; }
+.czwf_main table{ display:table; width:100%; border-top:solid #ddd 1px; border-left:solid #ddd 1px; margin-top:15px;}
+.czwf_main td{ border-right:solid #ddd 1px;  border-bottom:solid #ddd 1px; padding:5px 10px; white-space:nowrap;}
+.czwf_main td strong{  color:#999;}
+.czwf_main td.thead{ background:#f9f9f9; }
+
+.czwf_main td.td_align_l{ text-align:left;}
+.czwf_main td p{ padding:0;  text-align:left; white-space:normal; width:100%;}
+.czwf_main ul{ display:block; padding:10px 0;}
+.czwf_main ul li{ display:block; line-height:25px;}
+
+/*彩种玩法 end*/

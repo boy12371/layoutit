@@ -34,6 +34,6 @@ gulp.task('serve', function () {
   gulp.watch('./src/*.html', ['dir']);
 });
 
-gulp.task('default', ['js', 'css', 'dir', 'serve'], function () {
+gulp.task('default', ['serve'], function () {
   console.log('gulp 任务执行中....')
 });

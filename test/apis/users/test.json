@@ -1,0 +1,5 @@
+[
+  { "collection": "Users", "fields": "email" },
+  { "collection": "Table1" },
+  { "collection": "Table2" }
+]

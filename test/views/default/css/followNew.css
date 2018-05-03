@@ -1,0 +1,467 @@
+@charset "utf-8";
+/* 87霸气红人榜 */
+.bg-w .hot87{
+    margin-top: 10px;
+    width: 990px;
+    height: 178px;
+    border: 1px solid #D05B00;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+}
+.bg-w .hot87 .hotTitle img{
+    margin: 15px auto;
+    display: block;
+    width: 333px;
+    height: 24px;
+}
+.bg-w .hot87 .more{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #666;
+}
+.hot87 .rankList{
+    width: 100%;
+}
+.hot87 .rankList .rankDetail{
+    float: left;
+    margin-left: 28px;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+.rankList .rankDetail .avatar{
+    float: left;
+    width: 44px;
+    height: 41px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 9px;
+    overflow: hidden;
+}
+.rankList .rankDetail .detail{
+    float: left;
+    margin-top: -2px;
+    line-height: 16px;
+}
+.rankList .detail .medal{
+    width: 22px;
+    height: 27px;
+    background: url("../images/followOrder/icons.png") no-repeat -318px 0px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.rankList .detail .medal.one{
+    background-position: -39px 0;
+}
+.rankList .detail .medal.two{
+    background-position: 0px 0;
+}
+.rankList .detail .medal.three{
+    background-position: -78px 0;
+}
+.rankList .detail .rankNum{
+    vertical-align: middle;
+    color: #C93624;
+    font-size: 14px;
+}
+.rankList .detail .username{
+    color: #333;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    width: 112px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* 跟单列表 */
+.followList{
+    width: 990px;
+    /*height: 40px;*/
+    background-color: #fff;
+    margin-top: 10px;
+}
+.followList .title{
+    width: 990px;
+    height: 40px;
+}
+.followList .tabList{
+    width: 427px;
+
+}
+.followList .tabList li{
+    float: left;
+}
+.followList .tabList .tab{
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #E5E5E5;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    border-bottom-color: #D98D52;
+}
+.followList .tabList .tab.active{
+    border-top-color: #D98D52;
+    border-left-color: #D98D52;
+    border-right-color: #D98D52;
+    border-bottom-color: #E5E5E5;
+    color: #FF0303;
+}
+.followList .howToFollow{
+    float: right;
+    width: 551px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #D98D52;
+    text-align: right;
+    text-decoration: underline;
+    color: #1D94F9;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+/* 表格 */
+.followListDetail{
+    text-align: center;
+    width: 990px;
+    border-bottom: 1px solid #EBEBEB;
+    height: auto;!important;
+    margin-bottom: 40px;
+    color: #3E3E3E;
+}
+.followListDetail th,
+.followListDetail td{
+    border-top: 1px solid #EBEBEB;
+}
+.followListDetail td{
+    padding: 10px 0;
+}
+.followListDetail .tTitle{
+    height: 40px;
+    background-color: #FBFBFB;
+}
+.followListDetail .you{
+    width: 26px;
+    height: 26px;
+    background: url("../images/followOrder/you.png") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#lotterys {
+    width: 90px;
+    height: 30px;
+    padding-left: 6px;
+    color: #3E3E3E;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.followListDetail .announce{
+    width: 22px;
+    height: 27px;
+    background: url("../images/followOrder/icons.png") no-repeat -238px 0px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+.followListDetail .copyBtn{
+    width: 60px;
+    height: 30px;
+    background-color: #C93624;
+    color: #fff;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.followListDetail .jumpTo{
+    width: 30px;
+    height: 30px;
+    background: url("../images/followOrder/rightArrow.fw.png") no-repeat center center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.followListDetail .avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 35px;
+}
+.followListDetail .userInfo{
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+    float: left;
+}
+.followListDetail .userInfo .username{
+    color: #1C77D3;
+    cursor: pointer;
+}
+.followListDetail .userInfo .shooting{
+    height: 20px;
+    color: #fff;
+    line-height: 20px;
+    background-color: #C93624;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 0 8px;
+    margin-right: 3px;
+}
+.followListDetail .userInfo .hotContinue{
+    width: 52px;
+    height: 18px;
+    border: 1px solid #FFB201;
+    color: #FFB201;
+    margin-top: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.followListDetail .hotContinue .hotNum{
+    display: inline-block;
+    background-color: #FFB201;
+    color: #fff;
+    width: 22px;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 3px;
+}
+
+/* 详细信息弹窗 */
+.followListDetail .userDetail{
+    width: 310px;
+    height: 330px;
+    position: absolute;
+    left: 66px;
+    top: -110px;
+    /*background-color: lightcoral;*/
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+}
+.followListDetail .userDetail.hide{
+    display: none;
+}
+.followListDetail .userDetail .leftArrow{
+    position: absolute;
+    left: 0;
+    top: 128px;
+    z-index: 100;
+}
+.followListDetail .userDetail .detail {
+    width: 295px;
+    height: 281px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 10px #D8D8D8;
+    -moz-box-shadow: 0px 0px 10px 10px #D8D8D8;
+    box-shadow: 0px 0px 10px 2px #D8D8D8;
+    background-color: #fff;
+    margin-top: 49px;
+    margin-left: 15px;
+    position: relative;
+}
+.userDetail .detail p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.followListDetail .userDetail .detail .detailUsername{
+    margin-top: -42px;
+}
+.userDetail .detail p .redFont{
+    color: #CA3927;
+}
+.followListDetail .userDetail .detailAvatar{
+    width: 80px;
+    height: 77px;
+    -webkit-border-radius: 40px 40px 0 0;
+    -moz-border-radius: 40px 40px 0 0;
+    border-radius: 40px 40px 0 0;
+    background-color: #fff;
+    position: relative;
+    left: 105px;
+    top: -48px;
+    padding-top: 8px;
+}
+.followListDetail .detailAvatar .avatar1{
+    width: 64px;
+    height: 54px;
+    overflow: hidden;
+    margin-left: 8px;
+    border: 1px solid rgba(255,255,255,0);
+    /*border-color: rgba(255,255,255,0);*/
+    margin-bottom: 2px;
+}
+.followListDetail .detailAvatar .avatar1 img{
+    width: 64px;
+    height: 64px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.followListDetail .detailAvatar .ljs{
+    height: 21px;
+    padding: 0 5px;
+    line-height: 21px;
+    color: #fff;
+    background-color: #C93624;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 2px;
+}
+.followListDetail .lhDetail .lianhong{
+    display: inline-block;
+    width: 120px;
+    height: 24px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #FFC849;
+    padding-top: 6px;
+    margin: 0 2px;
+}
+.followListDetail .lianhong .lhTitle{
+    display: inline-block;
+    width: 87px;
+    border-right: 2px solid #FFC849;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+}
+.followListDetail .lianhong .lhNum{
+    color: #C93624;
+    text-align: center;
+    line-height: 18px;
+    display: inline-block;
+    width: 26px;
+}
+.followListDetail .userDetailTitle{
+    padding: 16px 0 11px;
+}
+.followListDetail .thirtyDaysDetail{
+    width: 264px;
+    height: 59px;
+    border-top: 1px solid #E5E5E5;
+    margin: 0 auto;
+}
+.followListDetail .thirtyDaysDetail .tdd{
+    float: left;
+    width: 88px;
+    text-align: center;
+    line-height: 30px;
+}
+.followListDetail .thirtyDaysDetail .tdd .tddNum{
+    color: #C93624;
+}
+.followListDetail .attentionBtn{
+    width: 276px;
+    height: 39px;
+    border: 1px solid #C93624;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin: 0 auto;
+    color: #C93624;
+    line-height: 39px;
+    text-align: center;
+    cursor: pointer;
+}
+.followListDetail .haveAttentionBtn{
+    width: 276px;
+    height: 39px;
+    border: 1px solid #333;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin: 0 auto;
+    color: #333;
+    line-height: 39px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 宣言弹窗 */
+.followListDetail .announceTd{
+    position: relative;
+}
+.followListDetail .announceTd .announceDetail{
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: -94px;
+    height: auto;
+}
+.followListDetail .announceTd .announceDetail.hide{
+    display: none;
+}
+.announceTd .announceDetail .downArrow{
+    position: absolute;
+    left: 113px;
+    bottom: 0;
+    z-index: 100;
+}
+.followListDetail .announceTd .annouceText{
+    position: absolute;
+    bottom: 10px;
+    left: -30px;
+    background-color: #FBFAE7;
+    border: 1px solid #E7DCBB;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 15px 15px;
+    line-height: 20px;
+    width: 266px;
+    word-wrap: break-word;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 10px #D8D8D8;
+    -moz-box-shadow: 0px 0px 10px 10px #D8D8D8;
+    box-shadow: 0px 0px 10px 2px #D8D8D8;
+}
+
+#mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: none;
+}
+#mask img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+}
+
+
+
+

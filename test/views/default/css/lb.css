@@ -1,0 +1,47 @@
+div.LunBo {
+	margin-bottom:10px;
+	position: relative;
+	list-style-type: none;
+	height: 200px;
+	width: 510px;
+	
+}
+div.LunBo ul li {
+	position: absolute;
+	height: 200px;
+	width: 510px;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+div.LunBo ul li.CurrentPic {
+	display: block;
+}
+div.LunBo div.LunBoNum {
+	position: absolute;
+	left: 300px;
+	bottom: 2px;
+	width: 165px;
+	text-align: right;
+	padding-left: 10px;
+}
+div.LunBo div.LunBoNum span {
+	height: 8px;
+	width: 8px;
+	display: inline-block;
+	border:1px solid #dc2845;
+	line-height: 8px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	cursor: pointer;
+	margin-right:2px;
+	border-radius:50%;
+	background-color:#dc2845;
+	text-indent:-999999px;
+	}
+div.LunBo div.LunBoNum span.CurrentNum {
+	background-color:#fff;
+	border:1px solid #FFFFFF;
+	}
+

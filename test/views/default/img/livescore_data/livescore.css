@@ -1,0 +1,177 @@
+﻿@charset "utf-8";
+/*即时比分页面样式*/
+.js_bg input[type=button] {border:0;cursor:pointer;}
+.js_bg {border:1px solid #b0c9e6;margin-top:10px;}
+.js_btnContent {width:100%;height:43px;border-bottom:1px solid #b7cce2;padding-top:15px;background-color:#e2effc;}
+.js_btnL {float:left;margin-left:20px;display:inline; position:relative;}
+.js_btnR {float:right;margin-right:20px;}
+
+.js_btnL1 {background:url(../images/common/btn-orange.png) no-repeat;width:88px;height:35px;
+           color:#fff;margin-right:10px;padding-bottom:7px;}
+.js_btnL2 {background:url(../images/common/btn-blue.png) no-repeat;width:88px;height:28px;color:#4469dd;}
+.js_btnL1, .js_btnL2,.js_btnR1,.js_btnR2,.js_btnR3 {float:left;text-align:center;}
+
+.js_btnR1,.js_btnR2,.js_btnR3 {background:url(../images/common/btn-yellow.png) no-repeat;width:72px;height:24px;margin-left:10px;color:#9f5000; line-height:24px;}
+.js_btnUl {background-color:#e2effc;border-bottom:3px solid #4a86cb; background:url(../images/common/js_btnBg.png) repeat-x;width:100%;height:29px;}
+.js_btnUl li{float:left;border-right:1px solid #b7cce2;color:#153e70;text-align:center;line-height:29px;cursor:pointer;
+             background:url(../images/common/js_btnUl.png) no-repeat;width:72px;height:29px;}
+.js_btnUl li.thisLi {background:url(../images/common/js_btnThis.png) no-repeat;width:72px;height:30px;color:#fff;margin-top:-1px;}
+.js_caption {width:100%;height:38px;line-height:38px;}
+.js_captionL {float:left;}
+.js_captionR {float:right;}
+.js_tabIco {float:left;margin:10px 10px auto 10px;}
+.js_captionBtn{float:left;background:url(../images/common/js_tableBtn.png) no-repeat;
+                                 width:70px;height:22px;line-height:22px;margin:8px 10px auto 0;}
+.js_captionBtn-sel {float:left;background:url(../images/common/js_tableBtn-sel.png) no-repeat;
+                                 width:70px;height:22px;line-height:22px;margin:8px 10px auto 0; text-align:left;color:#404040;cursor:pointer;padding-left:10px;}
+.js_pop {width:300px; padding:10px;padding-top:0; border:1px solid #a8bdd3; background-color:#f1f8fe;
+         position:absolute;margin:-6px auto auto 206px;*+margin:18px auto auto -262px;display:none;}
+.js_pop-radio {height:38px;line-height:38px;border-bottom:1px solid #a8bdd3;}
+.js_pop-radio input[type=radio]{vertical-align:middle;margin:auto 3px auto 10px;margin-top:-4px;width:13px;height:13px;}
+.js_sel {border:1px solid #a8bdd3;height:22px;padding-left:5px;}
+.js_pop-tab {width:100%;}
+.js_pop-tab td label{color:#fff;padding:2px;}
+.js_pop-tab td input[type=checkbox]{vertical-align:middle;margin-top:-4px;width:13px;height:13px;*+margin-top:0px;}
+.js_pop-tab td span{margin:0;}
+.textC {text-align:center;}
+.textC .js_captionBtn {float:none;}
+
+.js_captionL .js_sel {float:left;margin-top:8px;}
+.js_captionL span {margin-left:6px;}
+.js_captionL span b {color:#e40011;margin:auto 2px;}
+.js_captionL a {margin-left:6px;color:#4469dd;}
+.js_captionR input[type=checkbox],.js_table td input[type=checkbox]{vertical-align:middle;}
+.js_captionR input[type=checkbox] {margin-right:-2px;width:13px;height:13px;*+width:13px;*+height:13px;*+margin-right:-3px;}
+.js_captionR label,.js_table td label{vertical-align:middle;margin-right:10px;}
+.js_captionR .js_sel {float:none;margin-right:10px;}
+.js_table {width:100%;border:none;text-align:center;}
+.js_table th{border:1px solid #b0c9e6;height:30px;background-color:#e2f0f9;color:#404040;}
+.js_table td{height:28px;border-bottom:1px solid #dad9d8;}
+
+.js_table td.js_tdBlue {background-color:#327ae7;color:#fff;}
+
+.js_table td span.js_bgBlue {background-color:#6e8dbd;color:#fff;padding:3px;}
+.js_table td span.js_bgred {background-color:#d85369;color:#fff;padding:3px;}
+.js_table td span.js_bggreen {background-color:#99b66f;color:#fff;padding:3px;}
+
+.js_table td a{color:#4469dd;}
+
+.js_table td span.js_red{color:#fc3500;}
+.js_table td span.js_gray{color:#a4a4a4;}
+.js_table td span.js_blue{color:#1d58a0;}
+.js_table td span.js_green{color:#418c0f;}
+
+.sp_rq{
+	color: #009900;
+	display: none;
+}
+.sp_sr{
+	color: #FF0000;
+	display: none;
+}
+
+.fgreen a, .fgreen a:link, .fgreen a:visited, a.fgreen, a.fgreen:link, a.fgreen:visited {
+    color: #009900;
+}
+.fgreen a, .fgreen a:link, .fgreen a:visited, a.fgreen, a.fgreen:link, a.fgreen:visited {
+    color: #009900;
+}
+
+.td_living {
+    background: url("../images/flashlive.gif") no-repeat scroll 95% 20% transparent;
+}
+
+.yellowcard {
+    background: none repeat scroll 0 0 #FEE600;
+    border: 1px solid #C08160;
+    color: #973300;
+    display: inline-block;
+    margin: 2px;
+    padding: 0 2px;
+}
+
+.redcard {
+    background: none repeat scroll 0 0 #FF3900;
+    border: 1px solid #B13B3B;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 2px;
+    padding: 0 2px;
+}
+
+.red {
+    color: #FF0000;
+    font-family: Tahoma;
+}
+
+.icon_notop {
+    background: url("../images/ppg-g.png");
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+.icon_top {
+    background: url("../images/ppg-y.png");
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+
+/*进球提示弹出层*/
+.tips_m {
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.tips_b {
+    background:rgba(94, 133, 178, 0.6);
+    padding: 4px;
+}
+
+.tips_box {
+    background:rgb(255, 255, 255);
+    overflow: hidden;
+    border: 1px solid rgb(94, 133, 178);
+    position: relative;
+}
+
+.tips_box .tips_title {
+    height: 28px;
+    line-height:28px;
+    padding-left: 10px;
+    padding-right: 6px;
+    border-bottom: 1px solid rgb(135, 176, 222);
+    background: url("../images/common/tips_ico.png") repeat-x scroll 0% 0% rgb(182, 208, 235);
+    overflow: hidden;
+}
+
+.tips_box .tips_text {
+    padding: 10px 12px;
+}
+
+.tips_box h2 {
+    float: left;
+    font-size:14px;
+    margin: 0px;
+}
+
+.tips_box .tips_title .close a, .jr_cnt .close a {
+    float: right;
+    width: 23px;
+    height: 22px;
+    margin-top: 3px;
+    background: url("../images/common/tips_ico.png") no-repeat;
+    background-position: 0px -30px;
+    text-indent: -99999em;
+    overflow: hidden;
+}
+
+.blue{color:#1d58a0;}

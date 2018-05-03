@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.doctary_title{display:block; height:30px; line-height:30px;color:#ba201a;background:#f1f1f1;}
+.doctary_title font{color:#111; font-size:12px;}
+.doctary_content{width:950px; border:1px solid #d9d9d9; overflow:hidden; padding:0 20px; background:#fff; }
+.cz_box{border-bottom:1px dashed  #c5c5c5; font-size:14px; height:46px; line-height:46px; }
+.cz_box span{float:left;color:#666; width:83px; text-align:right;}
+.cz_box ul{padding-left:28px; float:left; width:820px; }
+.cz_box ul li {float:left; color:#333; margin-right:20px; display:block; text-align:center;}
+.cz_box ul li  a{color:#333;}
+.cz_box ul li a:hover,.cz_box ul li a.current{background:url(../images/87_line.png) no-repeat center 32px; display:block;}
+.hrb_title{color:#c11237; font-size:14px; float:left; width:100px;height:46px; line-height:46px;}
+.hrb_ul{ float:left; font-size:14px; width:850px; padding:4px 0 12px 0;}
+.hrb_ul li {float:left; color:#555; height:34px; line-height:34px; width:120px; background:url(../images/87_user.png) no-repeat left; padding-left:20px;}
+.hrb_ul li a:hover,.hrb_ul li a.current1{color:#c11237;}
+.doctary_table{width:990px; margin-top:10px; position:relative;border:1px solid #d9d9d9; background:#fff;}
+.doctary_table table{ width:100%;} 
+.doctary_table table tr td{border-bottom:1px solid #d9d9d9; height:40px; line-height:40px;}
+.doctary_table table img{vertical-align:middle; margin-left:5px;}
+.doctary_table .a_1{text-align:left; padding-left:10px;height:35px; line-height:35px;}
+.doctary_table .a_2{color:#2082de;}
+.doctary_table .a_3{color:#ba201a;}
+.doctary_table tr th{height:31px; line-height:31px; background:#f5f5f5; color:#333; font-weight:bold;border-bottom:1px solid #d9d9d9;}
+.doctary_table tr th font{color:#feac48; font-size:12px;}
+.table_tip{background:url(../images/87_msg.png) no-repeat; width:118px; height:39px; position:absolute; top:118px; left:264px; text-align:center; color:#333; line-height:39px;}
+.phb{border:1px solid #d9d9d9; width:165px; min-height:500px; overflow:hidden; position:absolute;top:31px; left:999px;background:#fff; padding-bottom:13px;}
+.phb h3{ color:#999; padding-top:10px; font-weight:normal; }
+.phb p{height:26px; line-height:26px;}
+.phb_title{background:#ededed; height:33px; line-height:33px; color:#333; font-size:14px; text-align:center;}
+.phb_l{margin-left:10px;float:left; color:#2082de; text-align:left;}
+.phb_l p{margin-left:5px;}
+.phb_r{float:right; margin-right:10px; color:#c51200; text-align:center;}

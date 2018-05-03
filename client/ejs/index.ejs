@@ -1,0 +1,18 @@
+<%=require('./components/header/head.ejs')()%>
+    <!-- <div class="container-fluid p-0">
+        <div class="row m-0">
+            <div class="col-12 col-md-12 p-0">
+                <img class="d-block w-100" src="<%=require('../img/index.jpg')%>" alt="">
+            </div>
+        </div>
+    </div> -->
+    <%=require('./components/header/nav/nav.ejs')()%>
+        <%=require('./components/header/carousel/carousel.ejs')()%>
+            <%=require('./components/section/gallery/product.ejs')()%>
+                <%=require('./components/section/article/aboutus.ejs')()%>
+                    <%=require('./components/section/article/culture.ejs')()%>
+                        <%=require('./components/section/article/information.ejs')()%>
+                            <%=require('./components/section/article/news.ejs')()%>
+                                <%=require('./components/footer/link.ejs')()%>
+                                    <%=require('./components/footer/footer.ejs')()%>
+                                        <%=require('./components/footer/foot.ejs')()%>
