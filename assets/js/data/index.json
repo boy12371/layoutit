@@ -1,0 +1,62 @@
+[
+    {
+        "label": "title",
+        "text": "首页 - Bootstrap练习"
+    },
+    {
+        "label": ".nav-link:eq(0)",
+        "text": "菜单2"
+    },
+    {
+        "label": ".nav-link:eq(0)",
+        "removeclass": "active"
+    },
+    {
+        "label": ".nav-link:eq(1)",
+        "addclass": "active"
+    },
+    {
+        "label": ".row.bg-danger",
+        "attr": "id=app-1"
+    },
+    {
+        "label": ".row.bg-danger",
+        "text": "{{ message }}"
+    },
+    {
+        "label": ".col-sm.text-sm-center:eq(0)",
+        "attr": "id=app-2"
+    },
+    {
+        "label": ".col-sm.text-sm-center:eq(0)",
+        "attr": "v-bind:title=message"
+    },
+    {
+        "label": ".row.bg-info",
+        "attr": "id=app-3"
+    },
+    {
+        "label": ".row.bg-info>p",
+        "attr": "v-if=seen"
+    },
+    {
+        "label": ".bg-white",
+        "attr": "id=app-4"
+    },
+    {
+        "label": ".bg-white>ol",
+        "html": "<li v-for=\"todo in todos\">{{ todo.text }}</li>"
+    },
+    {
+        "label": ".row.bg-light",
+        "attr": "id=app-5"
+    },
+    {
+        "label": ".row.bg-light>p",
+        "text": "{{ message }}"
+    },
+    {
+        "label": ".row.bg-light>button",
+        "attr": "v-on:click=reverseMessage"
+    }
+]

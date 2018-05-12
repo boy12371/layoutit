@@ -1,0 +1,5 @@
+@charset "utf-8";
+.container-fluid > .row.bg-secondary > .col-md-5.mr-0.pr-0 {
+  background-image: url(../img/link.png);
+  background-position: center center;
+}
